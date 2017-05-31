@@ -1,0 +1,41 @@
+<form id="adminForm" action="index2.php" method="post" name="adminForm">
+<table style="text-align: center;" width="100%">
+<tbody>
+<tr>
+<td style="text-align: center;">
+<p style="text-align: justify;"><a class="btn" href="index.php/student#information">Information              </a>         </p>
+ </td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p style="text-align: justify;"><a class="btn" href="index.php/student#Exam">Exam                       </a>                 </p>
+ </td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p style="text-align: justify;"><a class="btn" href="index.php/student#FollowUp">Follow Up                </a>             </p>
+ </td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p style="text-align: justify;"><a class="btn" href="index.php/student#Schedule">Schedule                 </a></p>
+ </td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p style="text-align: justify;"><a class="btn" href="index.php/student#CourseDoc">Course Documents</a></p>
+ </td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p style="text-align: justify;"><a class="btn" href="index.php/student#Absent">Absents                  </a>              </p>
+ </td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p style="text-align: justify;"><a class="btn" href="index.php/student#Events">Events                    </a>              </p>
+ </td>
+</tr>
+</tbody>
+</table>
+</form>

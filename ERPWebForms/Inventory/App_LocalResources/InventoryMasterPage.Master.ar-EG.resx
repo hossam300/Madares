@@ -1,0 +1,1493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddCustomer" xml:space="preserve">
+    <value>اضافة عميل</value>
+  </data>
+  <data name="AddNewItemToStock" xml:space="preserve">
+    <value>إضافة عنصر إلى المخزون</value>
+  </data>
+  <data name="AddProduct" xml:space="preserve">
+    <value>اضافة منتج</value>
+  </data>
+  <data name="AddProductCategory" xml:space="preserve">
+    <value>اضافة فئة</value>
+  </data>
+  <data name="AddSupplier" xml:space="preserve">
+    <value>اضافة مورد</value>
+  </data>
+  <data name="AddWarehouse" xml:space="preserve">
+    <value>اضافة مخزن</value>
+  </data>
+  <data name="ASPxNavBar1Resource1.CollapseImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.CollapseImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.CollapseImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.CollapseImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.ExpandImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.ExpandImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.ExpandImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.ExpandImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.GroupDataFields.NavigateUrlFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ASPxNavBar1Resource1.GroupDataFields.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ASPxNavBar1Resource1.GroupHeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.GroupHeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.GroupHeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.GroupHeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.GroupHeaderImageCollapsed.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.GroupHeaderImageCollapsed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.GroupHeaderImageCollapsed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.GroupHeaderImageCollapsed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.ItemDataFields.NavigateUrlFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ASPxNavBar1Resource1.ItemDataFields.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ASPxNavBar1Resource1.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASPxNavBar1Resource1.LoadingPanelText" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="ASPxNavBar1Resource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="ASPxNavBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnArabicResource1.Text" xml:space="preserve">
+    <value>&lt;img src="../images/Arabic.GIF"  width="50" height="50" alt="عربى" /&gt;</value>
+  </data>
+  <data name="btnArabicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEnglishResource1.Text" xml:space="preserve">
+    <value>&lt;img src="../images/English.GIF" width="50" height="50" alt="English" /&gt;</value>
+  </data>
+  <data name="btnEnglishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLogoutResource1.Text" xml:space="preserve">
+    <value>
+                            &lt;span class="icon"&gt;Logout&lt;/span&gt;
+                        </value>
+  </data>
+  <data name="btnLogoutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>العملاء</value>
+  </data>
+  <data name="CustomersHeader" xml:space="preserve">
+    <value>العملاء</value>
+  </data>
+  <data name="DeletedCustomers" xml:space="preserve">
+    <value>العملاء المحذوفين</value>
+  </data>
+  <data name="DeletedDispatchItems" xml:space="preserve">
+    <value>العناصر الموفدة المحذوفة</value>
+  </data>
+  <data name="DeletedInvoices" xml:space="preserve">
+    <value>الفواتير المحذوفة</value>
+  </data>
+  <data name="DeletedOrders" xml:space="preserve">
+    <value>اوامر الشراء المحذوفة</value>
+  </data>
+  <data name="DeletedProducts" xml:space="preserve">
+    <value>المنتجات المحذوفة</value>
+  </data>
+  <data name="DeletedRestocedItems" xml:space="preserve">
+    <value>العناصر المستعادة المحذوفة</value>
+  </data>
+  <data name="DeletedSalesOrders" xml:space="preserve">
+    <value>اوامر المبيعات المحذوفة</value>
+  </data>
+  <data name="DispatchItem" xml:space="preserve">
+    <value>ارسال عنصر</value>
+  </data>
+  <data name="DispatchToStaffHeader" xml:space="preserve">
+    <value>ارسال عنصر الى العاملين</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="Invoices" xml:space="preserve">
+    <value>الفواتير</value>
+  </data>
+  <data name="InvoicesHeader" xml:space="preserve">
+    <value>الفواتير</value>
+  </data>
+  <data name="lblHomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModHeaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbluserNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbluserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LowStock" xml:space="preserve">
+    <value>المخزون المنخفض</value>
+  </data>
+  <data name="ModHeader" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.CollapseImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.CollapseImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.CollapseImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.CollapseImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.ExpandImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.ExpandImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.ExpandImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.ExpandImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.HeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.HeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.HeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.HeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.HeaderImageCollapsed.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.HeaderImageCollapsed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.HeaderImageCollapsed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.HeaderImageCollapsed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.CollapseImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.CollapseImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.CollapseImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.CollapseImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.ExpandImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.ExpandImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.ExpandImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.ExpandImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.HeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.HeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.HeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.HeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.HeaderImageCollapsed.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.HeaderImageCollapsed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.HeaderImageCollapsed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.HeaderImageCollapsed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.CollapseImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.CollapseImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.CollapseImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.CollapseImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.ExpandImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.ExpandImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.ExpandImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.ExpandImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.HeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.HeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.HeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.HeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.HeaderImageCollapsed.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.HeaderImageCollapsed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.HeaderImageCollapsed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.HeaderImageCollapsed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.CollapseImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.CollapseImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.CollapseImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.CollapseImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.ExpandImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.ExpandImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.ExpandImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.ExpandImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.HeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.HeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.HeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.HeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.HeaderImageCollapsed.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.HeaderImageCollapsed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.HeaderImageCollapsed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.HeaderImageCollapsed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.CollapseImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.CollapseImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.CollapseImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.CollapseImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.ExpandImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.ExpandImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.ExpandImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.ExpandImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.HeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.HeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.HeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.HeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.HeaderImageCollapsed.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.HeaderImageCollapsed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.HeaderImageCollapsed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.HeaderImageCollapsed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.CollapseImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.CollapseImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.CollapseImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.CollapseImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.ExpandImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.ExpandImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.ExpandImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.ExpandImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.HeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.HeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.HeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.HeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.HeaderImageCollapsed.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.HeaderImageCollapsed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.HeaderImageCollapsed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.HeaderImageCollapsed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.CollapseImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.CollapseImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.CollapseImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.CollapseImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.ExpandImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.ExpandImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.ExpandImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.ExpandImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.HeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.HeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.HeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.HeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.HeaderImageCollapsed.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.HeaderImageCollapsed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.HeaderImageCollapsed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.HeaderImageCollapsed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.CollapseImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.CollapseImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.CollapseImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.CollapseImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.ExpandImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.ExpandImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.ExpandImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.ExpandImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.HeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.HeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.HeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.HeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.HeaderImageCollapsed.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.HeaderImageCollapsed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.HeaderImageCollapsed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.HeaderImageCollapsed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.CollapseImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.CollapseImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.CollapseImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.CollapseImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.ExpandImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.ExpandImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.ExpandImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.ExpandImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.HeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.HeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.HeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.HeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.HeaderImageCollapsed.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.HeaderImageCollapsed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.HeaderImageCollapsed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.HeaderImageCollapsed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.CollapseImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.CollapseImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.CollapseImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.CollapseImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.ExpandImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.ExpandImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.ExpandImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.ExpandImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.HeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.HeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.HeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.HeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.HeaderImageCollapsed.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.HeaderImageCollapsed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.HeaderImageCollapsed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.HeaderImageCollapsed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.ItemImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.ItemImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.ItemImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.ItemImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarGroupResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource1.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource1.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource1.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource1.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource10.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource10.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource10.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource10.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource11.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource11.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource11.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource11.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource12.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource12.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource12.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource12.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource13.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource13.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource13.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource13.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource14.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource14.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource14.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource14.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource15.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource15.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource15.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource15.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource16.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource16.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource16.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource16.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource17.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource17.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource17.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource17.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource18.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource18.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource18.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource18.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource19.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource19.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource19.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource19.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource2.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource2.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource2.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource2.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource20.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource20.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource20.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource20.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource21.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource21.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource21.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource21.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource22.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource22.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource22.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource22.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource23.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource23.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource23.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource23.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource24.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource24.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource24.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource24.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource25.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource25.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource25.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource25.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource26.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource26.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource26.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource26.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource27.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource27.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource27.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource27.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource28.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource28.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource28.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource28.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource29.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource29.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource29.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource29.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource3.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource3.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource3.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource3.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource4.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource4.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource4.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource4.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource5.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource5.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource5.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource5.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource6.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource6.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource6.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource6.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource7.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource7.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource7.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource7.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource8.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource8.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource8.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource8.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource9.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource9.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource9.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource9.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavBarItemResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewInvoice" xml:space="preserve">
+    <value>فاتورة جديدة</value>
+  </data>
+  <data name="NewOrder" xml:space="preserve">
+    <value>امر شراء جديد </value>
+  </data>
+  <data name="NewSalesOrder" xml:space="preserve">
+    <value>امر بيع جديد</value>
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>اوامر الشراء</value>
+  </data>
+  <data name="OrdersHeader" xml:space="preserve">
+    <value>اوامر الشراء</value>
+  </data>
+  <data name="OutOfStock" xml:space="preserve">
+    <value>المخزون المنتهى</value>
+  </data>
+  <data name="ProductCategories" xml:space="preserve">
+    <value>الفئات</value>
+  </data>
+  <data name="ProductCategoryHeader" xml:space="preserve">
+    <value>الفئات</value>
+  </data>
+  <data name="ProductHeader" xml:space="preserve">
+    <value>المنتجات</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>المنتجات</value>
+  </data>
+  <data name="RestockedItems" xml:space="preserve">
+    <value>اعادة تخزين الاصناف</value>
+  </data>
+  <data name="RestockHeader" xml:space="preserve">
+    <value>اعادة تخزين</value>
+  </data>
+  <data name="SalesOrderHeader" xml:space="preserve">
+    <value>اوامر البيع</value>
+  </data>
+  <data name="SalesOrders" xml:space="preserve">
+    <value>اوامر البيع</value>
+  </data>
+  <data name="Suppliers" xml:space="preserve">
+    <value>الموردين</value>
+  </data>
+  <data name="SuppliersHeader" xml:space="preserve">
+    <value>الموردين</value>
+  </data>
+  <data name="ViewDispatches" xml:space="preserve">
+    <value>المنتجات المرسلة</value>
+  </data>
+  <data name="WarehouseHeader" xml:space="preserve">
+    <value>المخازن</value>
+  </data>
+  <data name="Warehouses" xml:space="preserve">
+    <value>المخازن</value>
+  </data>
+  <data name="AddStoreKeeper" xml:space="preserve">
+    <value>اضافة حارس للمخازن</value>
+  </data>
+  <data name="bootstrap.css" xml:space="preserve">
+    <value>../css/bootstrap-ar.css</value>
+  </data>
+  <data name="data-table.css" xml:space="preserve">
+    <value>../css/data-table-ar.css</value>
+  </data>
+  <data name="form.css" xml:space="preserve">
+    <value>../css/form-ar.css</value>
+  </data>
+  <data name="gradient.css" xml:space="preserve">
+    <value>../css/gradient-ar.css</value>
+  </data>
+  <data name="HorizontalAlign" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="jquery-ui-1.8.18.custom.css" xml:space="preserve">
+    <value>../css/jquery-ui-1.8.18.custom-ar.css</value>
+  </data>
+  <data name="jquery.jqplot.css" xml:space="preserve">
+    <value>../css/jquery.jqplot-ar.css</value>
+  </data>
+  <data name="layout.css" xml:space="preserve">
+    <value>../css/layout-ar.css</value>
+  </data>
+  <data name="layoutDirection" xml:space="preserve">
+    <value>rtl</value>
+  </data>
+  <data name="reset.css" xml:space="preserve">
+    <value>../css/reset-ar.css</value>
+  </data>
+  <data name="shCore.css" xml:space="preserve">
+    <value>../css/shCore-ar.css</value>
+  </data>
+  <data name="sprite.css" xml:space="preserve">
+    <value>../css/sprite-ar.css</value>
+  </data>
+  <data name="StoreKeepers" xml:space="preserve">
+    <value>امناء المخازن</value>
+  </data>
+  <data name="styles.css" xml:space="preserve">
+    <value>../css/styles-ar.css</value>
+  </data>
+  <data name="themes.css" xml:space="preserve">
+    <value>../css/themes-ar.css</value>
+  </data>
+  <data name="typography.css" xml:space="preserve">
+    <value>../css/typography-ar.css</value>
+  </data>
+  <data name="ui-elements.css" xml:space="preserve">
+    <value>../css/ui-elements-ar.css</value>
+  </data>
+  <data name="wizard.css" xml:space="preserve">
+    <value>../css/wizard-ar.css</value>
+  </data>
+  <data name="DeletedSuppliers" xml:space="preserve">
+    <value>الموردين المحذوفين</value>
+  </data>
+</root>
