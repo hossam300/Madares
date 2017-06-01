@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -2796,6 +2797,9 @@
     <Content Include="StudentAfair\App_LocalResources\Students.aspx.ar-EG.resx" />
     <Content Include="StudentAfair\App_LocalResources\ViewStudent.aspx.resx" />
     <Content Include="StudentAfair\App_LocalResources\ViewStudent.aspx.ar-EG.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

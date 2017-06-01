@@ -126,7 +126,8 @@
                                                 <label class="field_title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="lblDate" runat="server" Text="Invoice Date" meta:resourcekey="lblDateResource1"></asp:Label></label>
                                                 <div class="form_grid_4">
                                                     <asp:TextBox ID="txtDate" runat="server" Width="100%"  Columns="5" TabIndex="4" meta:resourcekey="txtDateResource1"></asp:TextBox>
-                                                     <cc1:CalendarExtender ID="CCTranDate" runat="server" TargetControlID="txtDate" BehaviorID="CCTranDate" />
+                                                       <asp:RequiredFieldValidator ID="RequiredFieldValidator3" ControlToValidate="txtDate" runat="server" ErrorMessage="*" meta:resourcekey="RequiredFieldValidator1Resource1" ForeColor="Red"></asp:RequiredFieldValidator>
+                                                     <cc1:CalendarExtender ID="CCTranDate" runat="server" TargetControlID="txtDate" BehaviorID="CCTranDate"  />
                                                 </div>
                                             </div>
                                             <span class="clear"></span>

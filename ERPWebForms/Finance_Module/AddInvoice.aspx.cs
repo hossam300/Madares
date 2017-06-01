@@ -52,7 +52,7 @@ namespace ERPWebForms.Finance_Module
                 {
                     Response.Write("<script>alert('لم يتم الحفظ');</script>");
                 }
-
+                txtDate.Text = DateTime.Now.ToShortDateString();
                 grid.DataSource = GetTable();
                 grid.KeyFieldName = "ID";
                 grid.DataBind();
