@@ -46,6 +46,18 @@ public class Bonuses : baseObject
         get { return _year; }
         set { _year = value; }
     }
+    int _manger;
+    public int Manger
+    {
+        get { return _manger; }
+        set { _manger = value; }
+    }
+    int _precentageFrom;
+    public int PrecentageFrom
+    {
+        get { return _precentageFrom; }
+        set { _precentageFrom = value; }
+    }
 	public Bonuses()
 	{
 		//
@@ -67,6 +79,8 @@ public class Bonuses : baseObject
             int.TryParse(dt.Rows[0]["Type"].ToString(), out _type);
             int.TryParse(dt.Rows[0]["Month"].ToString(), out _month);
             int.TryParse(dt.Rows[0]["Year"].ToString(), out _year);
+            int.TryParse(dt.Rows[0]["Manger"].ToString(), out _year);
+            int.TryParse(dt.Rows[0]["PrecentageFrom"].ToString(), out _year);
             decimal.TryParse(dt.Rows[0]["Value"].ToString(), out _value);
          
         }
@@ -89,7 +103,7 @@ public class Bonuses : baseObject
     }
     public override int save()
     {
-        SqlParameter[] param = new SqlParameter[9];
+        SqlParameter[] param = new SqlParameter[11];
         param[0] = DataAccess.AddParamter("@LastModifiedDate", DateTime.Now, SqlDbType.DateTime, 50);
         param[1] = DataAccess.AddParamter("@Creationdate", DateTime.Now, SqlDbType.DateTime, 50);
         param[2] = DataAccess.AddParamter("@OperatorID", _operatorID, SqlDbType.Int, 50);
@@ -99,7 +113,9 @@ public class Bonuses : baseObject
         param[6] = DataAccess.AddParamter("@Nature", _nature, SqlDbType.Int, 50);
         param[7] = DataAccess.AddParamter("@Month", _month, SqlDbType.Int, 50);
         param[8] = DataAccess.AddParamter("@Year", _year, SqlDbType.Int, 50);
-        string sql = "INSERT INTO [dbo].[HR_Bonces] ([EmpID] ,[Value],[Type],[Nature],[CreationDate],[LastModifiedDate],[OperatorID],[Month],[Year]) values (@EmpID,@Value,@Type,@Nature,@Creationdate,@LastModifiedDate,@OperatorID,@Month,@Year)";
+        param[9] = DataAccess.AddParamter("@Manger", _year, SqlDbType.Int, 50);
+        param[10] = DataAccess.AddParamter("@PrecentageFrom", _year, SqlDbType.Int, 50);
+        string sql = "INSERT INTO [dbo].[HR_Bonces] ([EmpID] ,[Value],[Type],[Nature],[CreationDate],[LastModifiedDate],[OperatorID],[Month],[Year],[Manger],[PrecentageFrom]) values (@EmpID,@Value,@Type,@Nature,@Creationdate,@LastModifiedDate,@OperatorID,@Month,@Year,@Manger,@PrecentageFrom)";
         DataAccess.ExecuteSQLNonQuery(sql, param);
         //get last id
         sql = "select max(BonceID)as lastID from HR_Bonces";
@@ -115,7 +131,7 @@ public class Bonuses : baseObject
 
     public override int update()
     {
-        SqlParameter[] param = new SqlParameter[9];
+        SqlParameter[] param = new SqlParameter[11];
         param[0] = DataAccess.AddParamter("@LastModifiedDate", DateTime.Now, SqlDbType.DateTime, 50);
         param[1] = DataAccess.AddParamter("@ID", _id, SqlDbType.Int, 50);
         param[2] = DataAccess.AddParamter("@OperatorID", _operatorID, SqlDbType.Int, 50);
@@ -125,7 +141,9 @@ public class Bonuses : baseObject
         param[6] = DataAccess.AddParamter("@Nature", _nature, SqlDbType.Int, 50);
         param[7] = DataAccess.AddParamter("@Month", _month, SqlDbType.Int, 50);
         param[8] = DataAccess.AddParamter("@Year", _year, SqlDbType.Int, 50);
-        string sql = "UPDATE [dbo].[HR_Bonces] SET [EmpID] = @EmpID,[Value] = @Value ,[Type] = @Type ,[Nature] = @Nature ,[LastModifiedDate] = @LastModifiedDate,[OperatorID] = @OperatorID,[Month]=@Month,[Year]=@Year WHERE BonceID=@ID";
+        param[9] = DataAccess.AddParamter("@Manger", _year, SqlDbType.Int, 50);
+        param[10] = DataAccess.AddParamter("@PrecentageFrom", _year, SqlDbType.Int, 50);
+        string sql = "UPDATE [dbo].[HR_Bonces] SET [EmpID] = @EmpID,[Value] = @Value ,[Type] = @Type ,[Nature] = @Nature ,[LastModifiedDate] = @LastModifiedDate,[OperatorID] = @OperatorID,[Month]=@Month,[Year]=@Year,[Manger]=@Manger,[PrecentageFrom]=@PrecentageFrom WHERE BonceID=@ID";
         DataAccess.ExecuteSQLNonQuery(sql, param);
         return _id;
     }

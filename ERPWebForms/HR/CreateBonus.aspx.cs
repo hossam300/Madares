@@ -38,7 +38,8 @@ namespace ERPWebForms.HR
                         txtAmount.Text = bonus.Value.ToString();
                         ddlMonth.SelectedValue = bonus.Month.ToString();
                         ddlYear.SelectedValue = bonus.Year.ToString();
-
+                        ddlManger.SelectedValue = bonus.Manger.ToString();
+                        ddlprecentageFrom.SelectedValue = bonus.PrecentageFrom.ToString();
                         btnSave.Visible = false;
                         btnEdit.Visible = true;
                     }
@@ -57,6 +58,8 @@ namespace ERPWebForms.HR
             bonus.EmpID = Convert.ToInt32(ddlEmp.SelectedValue.ToString());
             bonus.Type = Convert.ToInt32(ddlType.SelectedValue.ToString());
             bonus.Value = Convert.ToDecimal(txtAmount.Text);
+            bonus.Manger =Convert.ToInt32(ddlManger.SelectedValue.ToString());
+            bonus.PrecentageFrom = Convert.ToInt32(ddlprecentageFrom.SelectedValue.ToString());
             bonus.Nature = 1;//Nature=1 it's a bonus
             HttpCookie myCookie = Request.Cookies["user"];
             bonus.OperatorID = Convert.ToInt32(myCookie.Values["userid"].ToString());
@@ -81,6 +84,8 @@ namespace ERPWebForms.HR
             bonus.EmpID = Convert.ToInt32(ddlEmp.SelectedValue.ToString());
             bonus.Type = Convert.ToInt32(ddlType.SelectedValue.ToString());
             bonus.Value = Convert.ToDecimal(txtAmount.Text);
+            bonus.Manger = Convert.ToInt32(ddlManger.SelectedValue.ToString());
+            bonus.PrecentageFrom = Convert.ToInt32(ddlprecentageFrom.SelectedValue.ToString());
             bonus.Nature = 1;//Nature=1 it's a bonus
             HttpCookie myCookie = Request.Cookies["user"];
             bonus.OperatorID = Convert.ToInt32(myCookie.Values["userid"].ToString());

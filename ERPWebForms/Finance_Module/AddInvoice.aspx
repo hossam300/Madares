@@ -127,7 +127,7 @@
                                                 <div class="form_grid_4">
                                                     <asp:TextBox ID="txtDate" runat="server" Width="100%"  Columns="5" TabIndex="4" meta:resourcekey="txtDateResource1"></asp:TextBox>
                                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" ControlToValidate="txtDate" runat="server" ErrorMessage="*" meta:resourcekey="RequiredFieldValidator1Resource1" ForeColor="Red"></asp:RequiredFieldValidator>
-                                                     <cc1:CalendarExtender ID="CCTranDate" runat="server" TargetControlID="txtDate" BehaviorID="CCTranDate"  />
+                                                     <cc1:CalendarExtender ID="CCTranDate" runat="server" TargetControlID="txtDate" BehaviorID="CCTranDate"  Format="dd/MM/yyyy" />
                                                 </div>
                                             </div>
                                             <span class="clear"></span>
