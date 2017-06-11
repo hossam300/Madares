@@ -46,7 +46,12 @@ public class Leave : baseObject
         get { return _comment; }
         set { _comment = value; }
     }
-   
+    int _numberOfDays;
+    public int NumberOfDays
+    {
+        get { return _numberOfDays; }
+        set { _numberOfDays = value; }
+    }
 	public Leave()
 	{
 		//
@@ -70,6 +75,7 @@ public class Leave : baseObject
             DateTime.TryParse(dt.Rows[0]["FromDate"].ToString(), out  _fromdate);
             DateTime.TryParse(dt.Rows[0]["ToDate"].ToString(), out  _toDate);
             _comment = dt.Rows[0]["Comment"].ToString();
+            int.TryParse(dt.Rows[0]["NoOfDays"].ToString(), out _numberOfDays);
         }
         return id;
     }
@@ -83,7 +89,7 @@ public class Leave : baseObject
 
     public override int save()
     {
-        SqlParameter[] param = new SqlParameter[8];
+        SqlParameter[] param = new SqlParameter[9];
         param[0] = DataAccess.AddParamter("@LastModifiedDate", DateTime.Now, SqlDbType.DateTime, 50);
         param[1] = DataAccess.AddParamter("@Creationdate", DateTime.Now, SqlDbType.DateTime, 50);
         param[2] = DataAccess.AddParamter("@OperatorID", _operatorID, SqlDbType.Int, 50);
@@ -92,8 +98,8 @@ public class Leave : baseObject
         param[5] = DataAccess.AddParamter("@FromDate", _fromdate, SqlDbType.DateTime, 50);
         param[6] = DataAccess.AddParamter("@ToDate", _toDate, SqlDbType.DateTime, 50);
         param[7] = DataAccess.AddParamter("@Comment", _comment, SqlDbType.NVarChar, 500);
-
-        string sql = "INSERT INTO [dbo].[HR_Leaves] ([EmpID] ,[LeaveTypeID],[FromDate],[ToDate],[Comment],[CreationDate],[LastModifiedDate],[OperatorID]) values (@EmpID,@LeaveTypeID,@FromDate,@ToDate,@Comment,@Creationdate,@LastModifiedDate,@OperatorID)";
+        param[8] = DataAccess.AddParamter("@NoOfDays", _numberOfDays, SqlDbType.Int, 50);
+        string sql = "INSERT INTO [dbo].[HR_Leaves] ([EmpID] ,[LeaveTypeID],[FromDate],[ToDate],[Comment],[CreationDate],[LastModifiedDate],[OperatorID],[NoOfDays]) values (@EmpID,@LeaveTypeID,@FromDate,@ToDate,@Comment,@Creationdate,@LastModifiedDate,@OperatorID,@NoOfDays)";
         DataAccess.ExecuteSQLNonQuery(sql, param);
         //get last id
         sql = "select max(LeaveID)as lastID from HR_Leaves";
@@ -118,8 +124,8 @@ public class Leave : baseObject
         param[5] = DataAccess.AddParamter("@FromDate", _fromdate, SqlDbType.DateTime, 50);
         param[6] = DataAccess.AddParamter("@ToDate", _toDate, SqlDbType.DateTime, 50);
         param[7] = DataAccess.AddParamter("@Comment", _comment, SqlDbType.NVarChar, 500);
-
-        string sql = "UPDATE [dbo].[HR_Leaves] SET [EmpID] = @EmpID,[LeaveTypeID] = @LeaveTypeID ,[FromDate] = @FromDate ,[ToDate] = @ToDate ,[Comment] = @Comment,[LastModifiedDate] = @LastModifiedDate,[OperatorID] = @OperatorID  WHERE LeaveID=@ID";
+        param[8] = DataAccess.AddParamter("@NoOfDays", _numberOfDays, SqlDbType.Int, 50);
+        string sql = "UPDATE [dbo].[HR_Leaves] SET [EmpID] = @EmpID,[LeaveTypeID] = @LeaveTypeID ,[FromDate] = @FromDate ,[ToDate] = @ToDate ,[Comment] = @Comment,[LastModifiedDate] = @LastModifiedDate,[OperatorID] = @OperatorID,[NoOfDays]=@NoOfDays  WHERE LeaveID=@ID";
         DataAccess.ExecuteSQLNonQuery(sql, param);
         return _id;
     }

@@ -38,7 +38,10 @@ namespace ERPWebForms.HR
                         txtAmount.Text = bonus.Value.ToString();
                         ddlMonth.SelectedValue = bonus.Month.ToString();
                         ddlYear.SelectedValue = bonus.Year.ToString();
-
+                        ddlManger.SelectedValue = bonus.Manger.ToString();
+                        ddlprecentageFrom.SelectedValue = bonus.PrecentageFrom.ToString();
+                        txtResone.Text = bonus.Reason.ToString();
+                        txtNumberOfDays.Text = bonus.NumberOfDays.ToString();
                         btnSave.Visible = false;
                         btnEdit.Visible = true;
                     }
@@ -62,6 +65,23 @@ namespace ERPWebForms.HR
             bonus.OperatorID = Convert.ToInt32(myCookie.Values["userid"].ToString());
             bonus.Month = Convert.ToInt32(ddlMonth.SelectedValue.ToString());
             bonus.Year = Convert.ToInt32(ddlYear.SelectedValue.ToString());
+            bonus.Manger = Convert.ToInt32(ddlManger.SelectedValue.ToString());
+            if (ddlType.SelectedValue == "1")
+            {
+                bonus.PrecentageFrom = Convert.ToInt32(ddlprecentageFrom.SelectedValue.ToString());
+                bonus.NumberOfDays = 0;
+            }
+            else if (ddlType.SelectedValue == "3")
+            {
+                bonus.PrecentageFrom = 0;
+                bonus.NumberOfDays = Convert.ToInt32(txtNumberOfDays.Text);
+            }
+            else
+            {
+                bonus.PrecentageFrom = 0;
+                bonus.NumberOfDays = 0;
+            }
+            bonus.Reason = txtResone.Text;
             int id = bonus.update();
             if (id > 0)
             {
@@ -78,12 +98,32 @@ namespace ERPWebForms.HR
 
             bonus.EmpID = Convert.ToInt32(ddlEmp.SelectedValue.ToString());
             bonus.Type = Convert.ToInt32(ddlType.SelectedValue.ToString());
-            bonus.Value = Convert.ToDecimal(txtAmount.Text);
+       
             bonus.Nature = 0;//Nature=0 it's a Deductions
             HttpCookie myCookie = Request.Cookies["user"];
             bonus.OperatorID = Convert.ToInt32(myCookie.Values["userid"].ToString());
             bonus.Month = Convert.ToInt32(ddlMonth.SelectedValue.ToString());
             bonus.Year = Convert.ToInt32(ddlYear.SelectedValue.ToString());
+            bonus.Manger = Convert.ToInt32(ddlManger.SelectedValue.ToString());
+            if (ddlType.SelectedValue == "1")
+            {
+                bonus.Value = Convert.ToDecimal(txtAmount.Text);
+                bonus.PrecentageFrom = Convert.ToInt32(ddlprecentageFrom.SelectedValue.ToString());
+                bonus.NumberOfDays = 0;
+            }
+            else if (ddlType.SelectedValue == "3")
+            {
+                bonus.Value = 0;
+                bonus.PrecentageFrom = 0;
+                bonus.NumberOfDays =Convert.ToInt32(txtNumberOfDays.Text);
+            }
+            else
+            {
+                bonus.Value = Convert.ToDecimal(txtAmount.Text);
+                bonus.PrecentageFrom = 0;
+                bonus.NumberOfDays = 0;
+            }
+            bonus.Reason = txtResone.Text;
             int id = bonus.save();
             if (id > 0)
             {
@@ -97,6 +137,33 @@ namespace ERPWebForms.HR
         protected void btnCancel_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/HR/Deductions.aspx");
+        }
+        protected void ddlType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ddlType.SelectedValue == "1")
+            {
+                lblprecentageFrom.Visible = true;
+                ddlprecentageFrom.Visible = true;
+                lblNumberOfDays.Visible = false;
+                txtNumberOfDays.Visible = false;
+            }
+            else if (ddlType.SelectedValue == "3")
+            {
+                lblNumberOfDays.Visible = true;
+                txtNumberOfDays.Visible = true;
+                lblprecentageFrom.Visible = false;
+                ddlprecentageFrom.Visible = false;
+                txtAmount.Visible = false;
+                lblAmount.Visible = false;
+
+            }
+            else
+            {
+                lblNumberOfDays.Visible = false;
+                txtNumberOfDays.Visible = false;
+                lblprecentageFrom.Visible = false;
+                ddlprecentageFrom.Visible = false;
+            }
         }
     }
 }

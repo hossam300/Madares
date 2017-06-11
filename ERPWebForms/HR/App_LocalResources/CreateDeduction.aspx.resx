@@ -564,4 +564,37 @@
   <data name="Year" xml:space="preserve">
     <value>Year</value>
   </data>
+  <data name="Label9Resource1" xml:space="preserve">
+    <value>Precentage From</value>
+  </data>
+  <data name="ListItemResource221.Text" xml:space="preserve">
+    <value>Choose Manger</value>
+  </data>
+  <data name="ListItemResource222.Text" xml:space="preserve">
+    <value>Choose Type</value>
+  </data>
+  <data name="ListItemResource331.Text" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="ListItemResource341.Text" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="ListItemResource342.Text" xml:space="preserve">
+    <value>Basic &amp; Variable</value>
+  </data>
+  <data name="ListItemResource455.Text" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Manger" xml:space="preserve">
+    <value>Manger</value>
+  </data>
+  <data name="precentageFrom" xml:space="preserve">
+    <value>Precentage From</value>
+  </data>
+  <data name="NumberOfDays" xml:space="preserve">
+    <value>Number Of Days</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
 </root>

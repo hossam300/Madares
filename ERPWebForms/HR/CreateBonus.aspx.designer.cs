@@ -202,13 +202,13 @@ namespace ERPWebForms.HR {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator6;
         
         /// <summary>
-        /// Label9 control.
+        /// lblprecentageFrom control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label9;
+        protected global::System.Web.UI.WebControls.Label lblprecentageFrom;
         
         /// <summary>
         /// ddlprecentageFrom control.
@@ -220,22 +220,22 @@ namespace ERPWebForms.HR {
         protected global::System.Web.UI.WebControls.DropDownList ddlprecentageFrom;
         
         /// <summary>
-        /// txtprecentageFrom control.
+        /// Label9 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtprecentageFrom;
+        protected global::System.Web.UI.WebControls.Label Label9;
         
         /// <summary>
-        /// RequiredFieldValidator7 control.
+        /// txtResone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator7;
+        protected global::System.Web.UI.WebControls.TextBox txtResone;
         
         /// <summary>
         /// btnEdit control.

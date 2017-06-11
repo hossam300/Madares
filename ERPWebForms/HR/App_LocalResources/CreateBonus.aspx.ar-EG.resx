@@ -513,4 +513,34 @@
   <data name="Year" xml:space="preserve">
     <value>السنة</value>
   </data>
+  <data name="Label9Resource1" xml:space="preserve">
+    <value>النسبه من</value>
+  </data>
+  <data name="ListItemResource221.Text" xml:space="preserve">
+    <value>اختار مدير</value>
+  </data>
+  <data name="ListItemResource222.Text" xml:space="preserve">
+    <value>اختار المصدر</value>
+  </data>
+  <data name="ListItemResource331.Text" xml:space="preserve">
+    <value>اساسى</value>
+  </data>
+  <data name="ListItemResource341.Text" xml:space="preserve">
+    <value>متغير</value>
+  </data>
+  <data name="ListItemResource342.Text" xml:space="preserve">
+    <value>اساسى ومتغير</value>
+  </data>
+  <data name="Manger" xml:space="preserve">
+    <value>المدير</value>
+  </data>
+  <data name="precentageFrom" xml:space="preserve">
+    <value>النسبة من</value>
+  </data>
+  <data name="NumberOfDays" xml:space="preserve">
+    <value>عدد الايام</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>السبب</value>
+  </data>
 </root>

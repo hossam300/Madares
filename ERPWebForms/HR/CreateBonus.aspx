@@ -36,7 +36,7 @@
                                                 <label class="field_title">
                                                     <asp:Label ID="Label3" runat="server" Text="<%$ Resources:Type %>" meta:resourcekey="Label3Resource1"></asp:Label></label>
                                                 <div class="form_grid_4">
-                                                    <asp:DropDownList ID="ddlType" runat="server" class="chzn-select" TabIndex="13" Width="100%" meta:resourcekey="ddlTypeResource1">
+                                                    <asp:DropDownList ID="ddlType" AutoPostBack="true" runat="server" class="chzn-select" TabIndex="13" Width="100%" meta:resourcekey="ddlTypeResource1" OnSelectedIndexChanged="ddlType_SelectedIndexChanged">
                                                         <asp:ListItem Value="" meta:resourcekey="ListItemResource2" Selected="True">Choose Type</asp:ListItem>
                                                         <asp:ListItem Value="1" meta:resourcekey="ListItemResource3">Percentage</asp:ListItem>
                                                         <asp:ListItem Value="2" meta:resourcekey="ListItemResource4">Value</asp:ListItem>
@@ -127,12 +127,12 @@
                                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ForeColor="Red" ControlToValidate="txtAmount" ErrorMessage="*" meta:resourcekey="RequiredFieldValidator2Resource1"></asp:RequiredFieldValidator>
                                                 </div>
                                                 <label class="field_title">
-                                                    <asp:Label ID="Label8" runat="server" Text="<%$ Resources:Employee %>" meta:resourcekey="Label8Resource1"></asp:Label></label>
+                                                    <asp:Label ID="Label8" runat="server" Text="<%$ Resources:Manger %>" meta:resourcekey="Label8Resource1"></asp:Label></label>
                                                 <div class="form_grid_4">
                                                     <asp:DropDownList ID="ddlManger" runat="server" class="chzn-select" TabIndex="13" Width="100%" DataSourceID="SqlDataSource1" DataTextField="EmpName" DataValueField="EmpID">
-                                                        <asp:ListItem Value="" meta:resourcekey="ListItemResource21" Selected="True">Choose Employee</asp:ListItem>
+                                                        <asp:ListItem Value="" meta:resourcekey="ListItemResource221" Selected="True">Choose Manger</asp:ListItem>
                                                     </asp:DropDownList>
-                                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ForeColor="Red" ControlToValidate="ddlType" ErrorMessage="*" meta:resourcekey="RequiredFieldValidator1Resource1"></asp:RequiredFieldValidator>
+                                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ForeColor="Red" ControlToValidate="ddlManger" ErrorMessage="*" ></asp:RequiredFieldValidator>
                                                 </div>
                                                 <span class="clear"></span>
                                                 <span class="clear"></span>
@@ -143,25 +143,34 @@
                                     <li>
                                         <div class="form_grid_12">
                                             <label class="field_title">
-                                                <asp:Label ID="Label9" runat="server" Text="From" meta:resourcekey="Label9Resource1"></asp:Label></label>
+                                                <asp:Label ID="lblprecentageFrom" runat="server" Visible="false" Text="<%$ Resources:precentageFrom %>" meta:resourcekey="Label9Resource1"></asp:Label></label>
                                             <div class="form_input">
                                                 <div class="form_grid_4 alpha">
-                                                    <asp:DropDownList ID="ddlprecentageFrom" runat="server" class="chzn-select" TabIndex="13" Width="100%" meta:resourcekey="ddlprecentageFrom">
-                                                        <asp:ListItem Value="" meta:resourcekey="ListItemResource22" Selected="True">Choose Type</asp:ListItem>
-                                                        <asp:ListItem Value="1" meta:resourcekey="ListItemResource31">Basic</asp:ListItem>
-                                                        <asp:ListItem Value="2" meta:resourcekey="ListItemResource41">Variable</asp:ListItem>
-                                                        <asp:ListItem Value="3" meta:resourcekey="ListItemResource41">Basic & Variable</asp:ListItem>
+                                                    <asp:DropDownList ID="ddlprecentageFrom" runat="server" Visible="false" class="chzn-select" TabIndex="13" Width="100%" meta:resourcekey="ddlprecentageFrom">
+                                                        <asp:ListItem Value="0" meta:resourcekey="ListItemResource222" Selected="True">Choose Type</asp:ListItem>
+                                                        <asp:ListItem Value="1" meta:resourcekey="ListItemResource331">Basic</asp:ListItem>
+                                                        <asp:ListItem Value="2" meta:resourcekey="ListItemResource341">Variable</asp:ListItem>
+                                                        <asp:ListItem Value="3" meta:resourcekey="ListItemResource342">Basic & Variable</asp:ListItem>
                                                     </asp:DropDownList>
-
-
-                                                    <asp:TextBox ID="txtprecentageFrom" placeholder="From" runat="server" type="text" TabIndex="1" class="limiter required" meta:resourcekey="txtAmountResource1"></asp:TextBox>
-                                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ForeColor="Red" ControlToValidate="txtprecentageFrom" ErrorMessage="*" meta:resourcekey="RequiredFieldValidator2Resource1"></asp:RequiredFieldValidator>
+                                                  
                                                 </div>
 
                                                 <span class="clear"></span>
                                             </div>
                                         </div>
+                                    </li>
+                                      <li>
+                                        <div class="form_grid_12">
+                                            <label class="field_title">
+                                                <asp:Label ID="Label9" runat="server"  Text="<%$ Resources:Reason %>" ></asp:Label></label>
+                                            <div class="form_input">
+                                                <div class="form_grid_8 alpha">
+                                                     <asp:TextBox ID="txtResone" placeholder="Reason" TextMode="MultiLine" runat="server" type="text" TabIndex="1" class="limiter required" ></asp:TextBox>
+                                                </div>
 
+                                                <span class="clear"></span>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
                                         <div class="form_grid_12">

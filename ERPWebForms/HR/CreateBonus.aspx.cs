@@ -40,6 +40,7 @@ namespace ERPWebForms.HR
                         ddlYear.SelectedValue = bonus.Year.ToString();
                         ddlManger.SelectedValue = bonus.Manger.ToString();
                         ddlprecentageFrom.SelectedValue = bonus.PrecentageFrom.ToString();
+                        txtResone.Text = bonus.Reason.ToString();
                         btnSave.Visible = false;
                         btnEdit.Visible = true;
                     }
@@ -59,12 +60,22 @@ namespace ERPWebForms.HR
             bonus.Type = Convert.ToInt32(ddlType.SelectedValue.ToString());
             bonus.Value = Convert.ToDecimal(txtAmount.Text);
             bonus.Manger =Convert.ToInt32(ddlManger.SelectedValue.ToString());
-            bonus.PrecentageFrom = Convert.ToInt32(ddlprecentageFrom.SelectedValue.ToString());
+            if (ddlType.SelectedValue=="1")
+            {
+                bonus.PrecentageFrom = Convert.ToInt32(ddlprecentageFrom.SelectedValue.ToString());
+            }
+            else
+            {
+                bonus.PrecentageFrom = 0;
+            }
+            bonus.Reason = txtResone.Text;
+            bonus.NumberOfDays = 0;
             bonus.Nature = 1;//Nature=1 it's a bonus
             HttpCookie myCookie = Request.Cookies["user"];
             bonus.OperatorID = Convert.ToInt32(myCookie.Values["userid"].ToString());
             bonus.Month = Convert.ToInt32(ddlMonth.SelectedValue.ToString());
             bonus.Year = Convert.ToInt32(ddlYear.SelectedValue.ToString());
+            bonus.Reason = txtResone.Text;
             int id = bonus.update();
             if (id > 0)
             {
@@ -85,12 +96,22 @@ namespace ERPWebForms.HR
             bonus.Type = Convert.ToInt32(ddlType.SelectedValue.ToString());
             bonus.Value = Convert.ToDecimal(txtAmount.Text);
             bonus.Manger = Convert.ToInt32(ddlManger.SelectedValue.ToString());
-            bonus.PrecentageFrom = Convert.ToInt32(ddlprecentageFrom.SelectedValue.ToString());
+            if (ddlType.SelectedValue == "1")
+            {
+                bonus.PrecentageFrom = Convert.ToInt32(ddlprecentageFrom.SelectedValue.ToString());
+            }
+            else
+            {
+                bonus.PrecentageFrom = 0;
+            }
+            bonus.Reason = txtResone.Text;
+            bonus.NumberOfDays = 0;
             bonus.Nature = 1;//Nature=1 it's a bonus
             HttpCookie myCookie = Request.Cookies["user"];
             bonus.OperatorID = Convert.ToInt32(myCookie.Values["userid"].ToString());
             bonus.Month = Convert.ToInt32(ddlMonth.SelectedValue.ToString());
             bonus.Year = Convert.ToInt32(ddlYear.SelectedValue.ToString());
+            bonus.Reason = txtResone.Text;
             int id = bonus.save();
             if (id > 0)
             {
@@ -104,6 +125,20 @@ namespace ERPWebForms.HR
         protected void btnCancel_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/HR/Bonus.aspx");
+        }
+
+        protected void ddlType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ddlType.SelectedValue=="1")
+            {
+                lblprecentageFrom.Visible = true;
+                ddlprecentageFrom.Visible = true;
+            }
+            else 
+            {
+                lblprecentageFrom.Visible = false;
+                ddlprecentageFrom.Visible = false;
+            }
         }
     }
 }

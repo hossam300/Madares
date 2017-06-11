@@ -66,6 +66,7 @@ namespace ERPWebForms.HR
             leaves.FromDate = Convert.ToDateTime(txtfrom.Text);
             leaves.ToDate = Convert.ToDateTime(txtTo.Text);
             leaves.Comment = txtComment.Text;
+            leaves.NumberOfDays = (Convert.ToDateTime(txtfrom.Text) - Convert.ToDateTime(txtTo.Text)).Days;
             HttpCookie myCookie = Request.Cookies["user"];
             leaves.OperatorID = Convert.ToInt32(myCookie.Values["userid"].ToString());
             if (leaves.overBalance(leaves.EmpID, leaves.LeaveTypeID))
@@ -96,6 +97,7 @@ namespace ERPWebForms.HR
             leaves.FromDate = Convert.ToDateTime(txtfrom.Text);
             leaves.ToDate = Convert.ToDateTime(txtTo.Text);
             leaves.Comment = txtComment.Text;
+            leaves.NumberOfDays = (Convert.ToDateTime(txtfrom.Text) - Convert.ToDateTime(txtTo.Text)).Days;
             HttpCookie myCookie = Request.Cookies["user"];
             leaves.OperatorID = Convert.ToInt32(myCookie.Values["userid"].ToString());
             if (leaves.overBalance(leaves.EmpID, leaves.LeaveTypeID))
