@@ -1,0 +1,3454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Hossam-\Desktop\Madares13-8-2017</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Account/Login.aspx">
+      <publishTime>03/01/2016 18:13:13</publishTime>
+    </File>
+    <File Include="Account/Manage.aspx">
+      <publishTime>03/01/2016 18:13:13</publishTime>
+    </File>
+    <File Include="Account/OpenAuthProviders.ascx">
+      <publishTime>03/01/2016 18:13:13</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>03/02/2016 06:01:51</publishTime>
+    </File>
+    <File Include="Account/RegisterExternalLogin.aspx">
+      <publishTime>03/02/2016 06:02:02</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>03/01/2016 18:13:13</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>01/25/2016 18:35:49</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>03/01/2016 17:55:11</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.bootstrap.dll">
+      <publishTime>03/01/2016 17:55:13</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>03/01/2016 17:55:13</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/01/2016 17:55:22</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/01/2016 17:55:22</publishTime>
+    </File>
+    <File Include="bin/ERPWebForms.dll">
+      <publishTime>08/13/2017 00:57:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>03/01/2016 17:55:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>03/01/2016 17:55:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>03/01/2016 17:55:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>03/01/2016 17:55:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>03/01/2016 17:55:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>03/01/2016 17:55:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>03/01/2016 17:55:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>03/01/2016 17:55:29</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>03/01/2016 17:55:29</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>03/01/2016 17:55:29</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>03/01/2016 17:55:29</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>03/01/2016 17:55:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>03/01/2016 17:55:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>03/01/2016 17:55:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>03/01/2016 17:55:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>03/01/2016 17:55:17</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>03/01/2016 17:55:17</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>03/18/2016 05:56:10</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/01/2016 17:55:12</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>03/01/2016 17:55:30</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>03/01/2016 17:55:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>03/01/2016 17:55:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>03/01/2016 17:55:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>03/01/2016 17:55:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>03/01/2016 17:55:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>03/01/2016 17:55:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>03/01/2016 17:55:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>03/01/2016 17:55:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>03/01/2016 17:55:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>03/01/2016 17:55:19</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>03/01/2016 17:55:11</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>03/01/2016 18:13:08</publishTime>
+    </File>
+    <File Include="Business/DataLayer/vssver.scc">
+      <publishTime>04/03/2016 21:26:06</publishTime>
+    </File>
+    <File Include="Business/Financial Bus/vssver.scc">
+      <publishTime>04/02/2016 00:43:32</publishTime>
+    </File>
+    <File Include="Business/HR Bus/vssver.scc">
+      <publishTime>04/02/2016 00:43:50</publishTime>
+    </File>
+    <File Include="Business/Student Affair/vssver.scc">
+      <publishTime>04/06/2016 12:23:25</publishTime>
+    </File>
+    <File Include="Business/vssver.scc">
+      <publishTime>04/06/2016 12:25:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>04/03/2016 21:26:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>04/03/2016 21:26:11</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>03/01/2016 18:13:13</publishTime>
+    </File>
+    <File Include="css/bootstrap-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/data-table-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/data-table.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/form-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/form.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/gradient-ar.css">
+      <publishTime>04/04/2016 04:23:02</publishTime>
+    </File>
+    <File Include="css/gradient.css">
+      <publishTime>04/04/2016 04:24:47</publishTime>
+    </File>
+    <File Include="css/ie/ie7.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/ie/ie8.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/ie/ie9.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/ie/vssver.scc">
+      <publishTime>04/02/2016 00:44:22</publishTime>
+    </File>
+    <File Include="css/jquery-ui-1.8.18.custom-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/jquery-ui-1.8.18.custom.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/jquery.jqplot-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/jquery.jqplot.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/layout-ar.css">
+      <publishTime>04/11/2016 19:51:00</publishTime>
+    </File>
+    <File Include="css/layout.css">
+      <publishTime>04/11/2016 19:50:57</publishTime>
+    </File>
+    <File Include="css/reset-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/reset.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/shCore-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/shCore.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/sprite-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/sprite.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/styles-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/styles.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/themes-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/themes.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/typography-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/typography.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/ui-elements-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/ui-elements.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/vssver.scc">
+      <publishTime>04/11/2016 20:00:48</publishTime>
+    </File>
+    <File Include="css/wizard-ar.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="css/wizard.css">
+      <publishTime>03/01/2016 18:15:19</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>02/15/2017 17:16:59</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/01/2016 18:13:08</publishTime>
+    </File>
+    <File Include="Finance_Module/AccountingMasterPage.Master">
+      <publishTime>06/11/2017 21:16:00</publishTime>
+    </File>
+    <File Include="Finance_Module/AddBank.aspx">
+      <publishTime>02/15/2017 13:29:53</publishTime>
+    </File>
+    <File Include="Finance_Module/AddBranch.aspx">
+      <publishTime>02/15/2017 13:30:59</publishTime>
+    </File>
+    <File Include="Finance_Module/AddCustomer.aspx">
+      <publishTime>02/15/2017 13:31:31</publishTime>
+    </File>
+    <File Include="Finance_Module/AddInvoice.aspx">
+      <publishTime>06/07/2017 23:49:02</publishTime>
+    </File>
+    <File Include="Finance_Module/AddJournalEntry.aspx">
+      <publishTime>02/15/2017 13:34:54</publishTime>
+    </File>
+    <File Include="Finance_Module/AddProduct.aspx">
+      <publishTime>08/12/2017 18:36:19</publishTime>
+    </File>
+    <File Include="Finance_Module/AddSupplier.aspx">
+      <publishTime>02/15/2017 13:37:00</publishTime>
+    </File>
+    <File Include="Finance_Module/AddSupplierInvoice.aspx">
+      <publishTime>02/15/2017 13:38:51</publishTime>
+    </File>
+    <File Include="Finance_Module/AllGLAccounts.aspx">
+      <publishTime>02/15/2017 13:40:05</publishTime>
+    </File>
+    <File Include="Finance_Module/AllTransactions.aspx">
+      <publishTime>02/15/2017 13:40:49</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AccountingMasterPage.master.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AccountingMasterPage.master.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddBank.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddBank.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddBranch.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddBranch.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddCustomer.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddCustomer.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddInvoice.aspx.ar-EG.resx">
+      <publishTime>05/07/2017 23:14:07</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddInvoice.aspx.resx">
+      <publishTime>05/07/2017 23:13:58</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddJournalEntry.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddJournalEntry.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddProduct.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddProduct.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddSupplier.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddSupplier.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddSupplierInvoice.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AddSupplierInvoice.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AllGLAccounts.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AllGLAccounts.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AllTransactions.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/AllTransactions.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Banks.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Banks.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Branches.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Branches.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Chart.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Chart.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/CloseFinancialYear.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/CloseFinancialYear.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/CreateCustomerItem.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/CreateCustomerItem.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/CreateFinancialYear.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/CreateFinancialYear.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/CreateNewGLAccount.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/CreateNewGLAccount.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Customers.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Customers.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Default.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Default.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/FinancialYears.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/FinancialYears.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/GLAccounts.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/GLAccounts.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Invoices.aspx.ar-Eg.resx">
+      <publishTime>05/07/2017 23:23:43</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Invoices.aspx.resx">
+      <publishTime>05/07/2017 23:24:29</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/JournalEntries.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/JournalEntries.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Products.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Products.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/SupplierInvoices.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/SupplierInvoices.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Suppliers.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/Suppliers.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewBank.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewBank.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewBranch.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewBranch.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewCustomer.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewCustomer.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewFinancialYear.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewFinancialYear.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewGLAccount.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewGLAccount.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewInvoice.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewInvoice.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewJournalEntry.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewJournalEntry.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewProduct.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewProduct.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewSupplier.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewSupplier.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewSupplierInvoice.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/ViewSupplierInvoice.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="Finance_Module/App_LocalResources/vssver.scc">
+      <publishTime>04/02/2016 00:49:06</publishTime>
+    </File>
+    <File Include="Finance_Module/Banks.aspx">
+      <publishTime>02/15/2017 13:41:24</publishTime>
+    </File>
+    <File Include="Finance_Module/Branches.aspx">
+      <publishTime>02/15/2017 13:41:41</publishTime>
+    </File>
+    <File Include="Finance_Module/Chart.aspx">
+      <publishTime>03/01/2016 22:40:34</publishTime>
+    </File>
+    <File Include="Finance_Module/CloseFinancialYear.aspx">
+      <publishTime>02/15/2017 13:44:01</publishTime>
+    </File>
+    <File Include="Finance_Module/CreateCustomerItem.aspx">
+      <publishTime>02/15/2017 13:47:15</publishTime>
+    </File>
+    <File Include="Finance_Module/CreateFinancialYear.aspx">
+      <publishTime>02/15/2017 13:48:30</publishTime>
+    </File>
+    <File Include="Finance_Module/CreateNewGLAccount.aspx">
+      <publishTime>02/15/2017 13:49:52</publishTime>
+    </File>
+    <File Include="Finance_Module/Customers.aspx">
+      <publishTime>02/15/2017 13:50:26</publishTime>
+    </File>
+    <File Include="Finance_Module/Default.aspx">
+      <publishTime>03/01/2016 22:50:09</publishTime>
+    </File>
+    <File Include="Finance_Module/FinancialYears.aspx">
+      <publishTime>02/15/2017 13:51:03</publishTime>
+    </File>
+    <File Include="Finance_Module/GLAccounts.aspx">
+      <publishTime>02/15/2017 13:51:35</publishTime>
+    </File>
+    <File Include="Finance_Module/Invoices.aspx">
+      <publishTime>05/08/2017 00:14:02</publishTime>
+    </File>
+    <File Include="Finance_Module/JournalEntries.aspx">
+      <publishTime>02/15/2017 13:52:16</publishTime>
+    </File>
+    <File Include="Finance_Module/Products.aspx">
+      <publishTime>02/15/2017 13:52:47</publishTime>
+    </File>
+    <File Include="Finance_Module/SupplierInvoices.aspx">
+      <publishTime>02/15/2017 13:53:15</publishTime>
+    </File>
+    <File Include="Finance_Module/Suppliers.aspx">
+      <publishTime>02/15/2017 13:54:34</publishTime>
+    </File>
+    <File Include="Finance_Module/UnAuthorized.aspx">
+      <publishTime>04/27/2016 13:06:05</publishTime>
+    </File>
+    <File Include="Finance_Module/ViewBank.aspx">
+      <publishTime>02/15/2017 13:56:06</publishTime>
+    </File>
+    <File Include="Finance_Module/ViewBranch.aspx">
+      <publishTime>02/15/2017 13:57:33</publishTime>
+    </File>
+    <File Include="Finance_Module/ViewCustomer.aspx">
+      <publishTime>02/15/2017 13:59:26</publishTime>
+    </File>
+    <File Include="Finance_Module/ViewFinancialYear.aspx">
+      <publishTime>02/15/2017 14:00:38</publishTime>
+    </File>
+    <File Include="Finance_Module/ViewGLAccount.aspx">
+      <publishTime>02/15/2017 14:02:26</publishTime>
+    </File>
+    <File Include="Finance_Module/ViewInvoice.aspx">
+      <publishTime>02/15/2017 14:04:33</publishTime>
+    </File>
+    <File Include="Finance_Module/ViewJournalEntry.aspx">
+      <publishTime>02/15/2017 14:06:01</publishTime>
+    </File>
+    <File Include="Finance_Module/ViewProduct.aspx">
+      <publishTime>02/15/2017 14:07:50</publishTime>
+    </File>
+    <File Include="Finance_Module/ViewSupplier.aspx">
+      <publishTime>02/15/2017 14:09:33</publishTime>
+    </File>
+    <File Include="Finance_Module/ViewSupplierInvoice.aspx">
+      <publishTime>02/15/2017 14:11:14</publishTime>
+    </File>
+    <File Include="Finance_Module/vssver.scc">
+      <publishTime>06/17/2016 22:31:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/01/2016 18:13:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/03/2016 21:27:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/01/2016 18:13:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/01/2016 18:13:10</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/01/2016 18:13:08</publishTime>
+    </File>
+    <File Include="HR/AddHoliday.aspx">
+      <publishTime>02/15/2017 14:53:05</publishTime>
+    </File>
+    <File Include="HR/AddLeave.aspx">
+      <publishTime>05/06/2017 14:33:33</publishTime>
+    </File>
+    <File Include="HR/AddLeaveType.aspx">
+      <publishTime>02/15/2017 14:55:31</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/AddHoliday.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/AddHoliday.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/AddLeave.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/AddLeave.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/AddLeaveType.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/AddLeaveType.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Bonus.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Bonus.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateBonus.aspx.ar-EG.resx">
+      <publishTime>06/11/2017 20:42:43</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateBonus.aspx.resx">
+      <publishTime>06/11/2017 20:27:15</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateDeduction.aspx.ar-EG.resx">
+      <publishTime>06/11/2017 20:27:00</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateDeduction.aspx.resx">
+      <publishTime>06/11/2017 20:27:27</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateEmployee.aspx.ar-EG.resx">
+      <publishTime>05/20/2017 09:14:18</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateEmployee.aspx.resx">
+      <publishTime>05/20/2017 09:16:29</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateJobCategory.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateJobCategory.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateJobtitle.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateJobtitle.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateKPI.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateKPI.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreatePayGrade.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreatePayGrade.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateReview.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateReview.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreatesheetStyle.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreatesheetStyle.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateTimeSheet.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateTimeSheet.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateWorkShifts.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/CreateWorkShifts.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Deductions.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Deductions.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Employees.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Employees.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/EmployeeTS.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/EmployeeTS.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ExcelSheetStyle.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ExcelSheetStyle.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Holidays.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Holidays.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/HRMasterPage.master.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/HRMasterPage.master.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Import.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Import.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/JobCategory.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/JobCategory.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/JobTitles.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/JobTitles.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/KPI.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/KPI.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Leaves.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Leaves.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/LeaveTypes.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/LeaveTypes.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/PayGrade.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/PayGrade.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Reviews.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Reviews.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Sallary.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/Sallary.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/SetUp.aspx.ar-EG.resx">
+      <publishTime>08/05/2016 13:30:02</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/SetUp.aspx.resx">
+      <publishTime>08/05/2016 13:29:05</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewBonus.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewBonus.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewDeduction.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewDeduction.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewEmployee.aspx.ar-EG.resx">
+      <publishTime>04/06/2016 13:42:00</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewEmployee.aspx.resx">
+      <publishTime>04/06/2016 13:35:35</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewHoliday.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewHoliday.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewJobCategory.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewJobCategory.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewJobtitle.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewJobtitle.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewKPI.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewKPI.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewLeave.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewLeave.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewLeaveType.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewLeaveType.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewPayGrade.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewPayGrade.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewReview.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewReview.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewsheetStyle.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewsheetStyle.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewTimeSheet.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewTimeSheet.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewWorkShift.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/ViewWorkShift.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/vssver.scc">
+      <publishTime>04/06/2016 13:44:43</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/WorkingDays.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/WorkingDays.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/WorkShifts.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/App_LocalResources/WorkShifts.aspx.resx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/Bonus.aspx">
+      <publishTime>02/15/2017 14:56:02</publishTime>
+    </File>
+    <File Include="HR/CreateBonus.aspx">
+      <publishTime>06/11/2017 20:50:28</publishTime>
+    </File>
+    <File Include="HR/CreateDeduction.aspx">
+      <publishTime>06/11/2017 20:59:22</publishTime>
+    </File>
+    <File Include="HR/CreateEmployee.aspx">
+      <publishTime>05/29/2017 18:26:52</publishTime>
+    </File>
+    <File Include="HR/CreateJobCategory.aspx">
+      <publishTime>02/15/2017 15:03:58</publishTime>
+    </File>
+    <File Include="HR/CreateJobtitle.aspx">
+      <publishTime>02/15/2017 15:05:02</publishTime>
+    </File>
+    <File Include="HR/CreateKPI.aspx">
+      <publishTime>02/15/2017 15:06:07</publishTime>
+    </File>
+    <File Include="HR/CreatePayGrade.aspx">
+      <publishTime>02/15/2017 15:07:24</publishTime>
+    </File>
+    <File Include="HR/CreateReview.aspx">
+      <publishTime>02/15/2017 15:09:22</publishTime>
+    </File>
+    <File Include="HR/CreatesheetStyle.aspx">
+      <publishTime>02/15/2017 15:15:35</publishTime>
+    </File>
+    <File Include="HR/CreateTimeSheet.aspx">
+      <publishTime>02/15/2017 15:16:56</publishTime>
+    </File>
+    <File Include="HR/CreateWorkShifts.aspx">
+      <publishTime>02/15/2017 15:18:27</publishTime>
+    </File>
+    <File Include="HR/Deductions.aspx">
+      <publishTime>02/15/2017 15:18:56</publishTime>
+    </File>
+    <File Include="HR/Default.aspx">
+      <publishTime>03/02/2016 01:07:59</publishTime>
+    </File>
+    <File Include="HR/Employees.aspx">
+      <publishTime>02/15/2017 15:19:29</publishTime>
+    </File>
+    <File Include="HR/EmployeeTS.aspx">
+      <publishTime>02/15/2017 15:20:04</publishTime>
+    </File>
+    <File Include="HR/ExcelSheetStyle.aspx">
+      <publishTime>02/15/2017 15:20:34</publishTime>
+    </File>
+    <File Include="HR/Holidays.aspx">
+      <publishTime>02/15/2017 15:20:56</publishTime>
+    </File>
+    <File Include="HR/HRMasterPage.Master">
+      <publishTime>06/11/2017 21:16:19</publishTime>
+    </File>
+    <File Include="HR/Import.aspx">
+      <publishTime>02/15/2017 15:24:39</publishTime>
+    </File>
+    <File Include="HR/JobCategory.aspx">
+      <publishTime>02/15/2017 15:25:16</publishTime>
+    </File>
+    <File Include="HR/JobTitles.aspx">
+      <publishTime>02/15/2017 15:26:06</publishTime>
+    </File>
+    <File Include="HR/KPI.aspx">
+      <publishTime>02/15/2017 15:26:30</publishTime>
+    </File>
+    <File Include="HR/Leaves.aspx">
+      <publishTime>02/15/2017 15:27:29</publishTime>
+    </File>
+    <File Include="HR/LeaveTypes.aspx">
+      <publishTime>02/15/2017 15:27:48</publishTime>
+    </File>
+    <File Include="HR/PayGrade.aspx">
+      <publishTime>02/15/2017 15:28:12</publishTime>
+    </File>
+    <File Include="HR/Reviews.aspx">
+      <publishTime>02/15/2017 15:28:28</publishTime>
+    </File>
+    <File Include="HR/Sallary.aspx">
+      <publishTime>02/15/2017 15:29:38</publishTime>
+    </File>
+    <File Include="HR/SetUp.aspx">
+      <publishTime>02/15/2017 15:30:47</publishTime>
+    </File>
+    <File Include="HR/UnAuthorized.aspx">
+      <publishTime>02/15/2017 15:30:52</publishTime>
+    </File>
+    <File Include="HR/Uplaods/english.png">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/Uplaods/logolt.jpg">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/Uplaods/Sample.xls.xlsx">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/Uplaods/Thumbs.db">
+      <publishTime>03/01/2016 18:32:41</publishTime>
+    </File>
+    <File Include="HR/Uplaods/vssver.scc">
+      <publishTime>04/02/2016 01:07:31</publishTime>
+    </File>
+    <File Include="HR/ViewBonus.aspx">
+      <publishTime>02/15/2017 15:31:30</publishTime>
+    </File>
+    <File Include="HR/ViewDeduction.aspx">
+      <publishTime>02/15/2017 15:32:07</publishTime>
+    </File>
+    <File Include="HR/ViewEmployee.aspx">
+      <publishTime>02/15/2017 15:35:12</publishTime>
+    </File>
+    <File Include="HR/ViewHoliday.aspx">
+      <publishTime>02/15/2017 15:36:10</publishTime>
+    </File>
+    <File Include="HR/ViewJobCategory.aspx">
+      <publishTime>02/15/2017 15:37:10</publishTime>
+    </File>
+    <File Include="HR/ViewJobtitle.aspx">
+      <publishTime>02/15/2017 15:40:15</publishTime>
+    </File>
+    <File Include="HR/ViewKPI.aspx">
+      <publishTime>02/15/2017 15:41:38</publishTime>
+    </File>
+    <File Include="HR/ViewLeave.aspx">
+      <publishTime>02/15/2017 15:42:39</publishTime>
+    </File>
+    <File Include="HR/ViewLeaveType.aspx">
+      <publishTime>02/15/2017 15:43:53</publishTime>
+    </File>
+    <File Include="HR/ViewPayGrade.aspx">
+      <publishTime>02/15/2017 15:45:12</publishTime>
+    </File>
+    <File Include="HR/ViewReview.aspx">
+      <publishTime>02/15/2017 15:46:55</publishTime>
+    </File>
+    <File Include="HR/ViewsheetStyle.aspx">
+      <publishTime>02/15/2017 15:47:37</publishTime>
+    </File>
+    <File Include="HR/ViewTimeSheet.aspx">
+      <publishTime>02/15/2017 15:48:39</publishTime>
+    </File>
+    <File Include="HR/ViewWorkShift.aspx">
+      <publishTime>02/15/2017 15:50:17</publishTime>
+    </File>
+    <File Include="HR/WorkingDays.aspx">
+      <publishTime>02/15/2017 15:52:15</publishTime>
+    </File>
+    <File Include="HR/WorkShifts.aspx">
+      <publishTime>02/15/2017 15:53:16</publishTime>
+    </File>
+    <File Include="images/ajax-loader.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%281%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%2810%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%2811%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%2812%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%2813%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%2814%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%2815%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%2816%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%282%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%283%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%284%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%285%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%286%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%287%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%288%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader%289%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader-bar %281%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader-bar %282%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader-bar %283%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader-bar %284%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader-bar %285%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader-bar %286%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader-bar %287%29.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/ajax-loader.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/Thumbs.db">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/ajax-loader/vssver.scc">
+      <publishTime>04/02/2016 01:12:05</publishTime>
+    </File>
+    <File Include="images/alert.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/alpha.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/Arabic.GIF">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/arrows-ffffff.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/bg-black.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/bg-grid.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/bg-input-focus.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/bg-input.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/button-sprite.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/buttons.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/checked.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/chevron-overlay.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/chevron.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/chosen-sprite.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/close.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/closed.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/border.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/controls.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/ie6/borderBottomCenter.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/ie6/borderBottomLeft.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/ie6/borderBottomRight.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/ie6/borderMiddleLeft.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/ie6/borderMiddleRight.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/ie6/borderTopCenter.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/ie6/borderTopLeft.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/ie6/borderTopRight.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/ie6/vssver.scc">
+      <publishTime>04/02/2016 01:12:35</publishTime>
+    </File>
+    <File Include="images/colorbox-img/loading.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/loading_background.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/overlay.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/Thumbs.db">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/colorbox-img/vssver.scc">
+      <publishTime>04/02/2016 01:12:39</publishTime>
+    </File>
+    <File Include="images/confirm/body_bg.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/confirm/buttons.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/confirm/header_bg.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/confirm/ie.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/confirm/Thumbs.db">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/confirm/vssver.scc">
+      <publishTime>04/02/2016 01:12:43</publishTime>
+    </File>
+    <File Include="images/details_close.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/details_open.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/dot.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/egypt_640.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/el-finder/icons-big.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/el-finder/icons-small.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/el-finder/ql.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/el-finder/spinner.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/el-finder/Thumbs.db">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/el-finder/toolbar.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/el-finder/vssver.scc">
+      <publishTime>04/02/2016 01:12:53</publishTime>
+    </File>
+    <File Include="images/English.GIF">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/english.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/error.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/fullview01.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/01.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/02.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/03.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/04.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/amanda_yg.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/amanda_yg_thumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/bianca_yg.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/bianca_yg_thumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/britt_yg.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/britt_yg_2.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/britt_yg_2_thumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/britt_yg_3.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/britt_yg_3_thumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/britt_yg_thumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/gisela_yg.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/gisela_yg_thumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/grace_yg_2.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/grace_yg_2_thumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/hannah_yg.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/hannah_yg_thumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/heather_yg.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/heather_yg_2.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/heather_yg_2_thumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/heather_yg_thumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/mikaela_yg.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/mikaela_yg_2.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/mikaela_yg_2_thumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/mikaela_yg_thumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/Thumbs.db">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/gallery-img/vssver.scc">
+      <publishTime>04/02/2016 01:13:32</publishTime>
+    </File>
+    <File Include="images/gthumb.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/home-link.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/hover-magnify.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/hue.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/IconHome.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/cancel-off-big.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/cancel-off.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/cancel-on-big.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/cancel-on.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/face-a-off.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/face-a.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/face-b-off.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/face-b.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/face-c-off.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/face-c.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/face-d-off.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/face-d.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/face-off.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/medal-off.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/medal-on.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/star-half-big.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/star-half.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/star-off-big.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/star-off.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/star-on-big.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/star-on.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/Thumbs.db">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/img-raty/vssver.scc">
+      <publishTime>04/02/2016 01:14:09</publishTime>
+    </File>
+    <File Include="images/indicator.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/ajax-loader.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/file.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/folder-closed.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/folder.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/minus.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/plus.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/Thumbs.db">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/treeview-black-line.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/treeview-black.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/treeview-default-line.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/treeview-default.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/treeview-famfamfam-line.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/treeview-famfamfam.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/treeview-gray-line.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/treeview-gray.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/treeview-red-line.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/treeview-red.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/js-tree/vssver.scc">
+      <publishTime>04/02/2016 01:15:23</publishTime>
+    </File>
+    <File Include="images/layout-sprite.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/alarm.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/ask.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/award.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/bulb.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/clip.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/err.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/flag.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/folder.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/globe.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/heart.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/info.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/medal-gold.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/pin.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/plus.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/Thumbs.db">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/tick.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/trophy.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/list-icons/vssver.scc">
+      <publishTime>04/02/2016 01:16:32</publishTime>
+    </File>
+    <File Include="images/loading.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/logo-bingo.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/madares_logo.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/off.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/on.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/open.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/01.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/02.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/03.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/04.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/05.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/06.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/07.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/08.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/09.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/10.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/11.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/12.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/13.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/14.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/15.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/Thumbs.db">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/overlays/vssver.scc">
+      <publishTime>04/02/2016 01:18:04</publishTime>
+    </File>
+    <File Include="images/photo_60x60.jpg">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/progress.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/saturation.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/shadow.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/slider-handle.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/slider_center.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/slider_left.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/slider_right.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/action-sprite.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/black_24.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/cs_h.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/extras/icon16_color_cr.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/extras/icon24x24black.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/extras/icon32x32black.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/extras/icon_color_clr.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/extras/icon_grb24x24.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/extras/Thumbs.db">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/extras/vssver.scc">
+      <publishTime>04/02/2016 01:19:27</publishTime>
+    </File>
+    <File Include="images/sprite-icons/icon-black.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/icons-a.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/icons-color.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/icon_sl.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/layout-icons.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/Thumbs.db">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/sprite-icons/vssver.scc">
+      <publishTime>04/02/2016 01:19:48</publishTime>
+    </File>
+    <File Include="images/sprite.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/switch.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/switch_minus.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/switch_plus.gif">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/table-tools/background.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/table-tools/collection.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/table-tools/collection_hover.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/table-tools/copy.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/table-tools/copy_hover.png">
+      <publishTime>03/01/2016 18:15:20</publishTime>
+    </File>
+    <File Include="images/table-tools/csv.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/table-tools/csv_hover.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/table-tools/pdf.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/table-tools/pdf_hover.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/table-tools/print.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/table-tools/print_hover.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/table-tools/Thumbs.db">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/table-tools/vssver.scc">
+      <publishTime>04/02/2016 01:21:04</publishTime>
+    </File>
+    <File Include="images/table-tools/xls.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/table-tools/xls_hover.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tag-edit/cross.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tag-edit/delete.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tag-edit/disc.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tag-edit/edit.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tag-edit/go.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tag-edit/Thumbs.db">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tag-edit/tick.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tag-edit/undo.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tag-edit/vssver.scc">
+      <publishTime>04/02/2016 01:21:37</publishTime>
+    </File>
+    <File Include="images/tbl-img/back_disabled.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tbl-img/back_enabled.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tbl-img/back_enabled_hover.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tbl-img/forward_disabled.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tbl-img/forward_enabled.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tbl-img/forward_enabled_hover.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tbl-img/sort_asc.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tbl-img/sort_asc_disabled.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tbl-img/sort_both.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tbl-img/sort_desc.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tbl-img/sort_desc_disabled.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tbl-img/Thumbs.db">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/tbl-img/vssver.scc">
+      <publishTime>04/02/2016 01:22:22</publishTime>
+    </File>
+    <File Include="images/Thumbs.db">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/toolbar.gif">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/Thumbs.db">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-icons_222222_256x240.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-icons_2e83ff_256x240.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-icons_454545_256x240.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-icons_888888_256x240.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/ui-icons_cd0a0a_256x240.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/ui-img/vssver.scc">
+      <publishTime>04/02/2016 01:23:22</publishTime>
+    </File>
+    <File Include="images/unchecked.gif">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/user-thumb.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/user-thumb1.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/user_thumb.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="images/vssver.scc">
+      <publishTime>04/02/2016 01:23:47</publishTime>
+    </File>
+    <File Include="images/x.png">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="Inventory/AddCustomer.aspx">
+      <publishTime>02/15/2017 15:56:02</publishTime>
+    </File>
+    <File Include="Inventory/AddNewItemToStock.aspx">
+      <publishTime>02/16/2017 15:58:36</publishTime>
+    </File>
+    <File Include="Inventory/AddProduct.aspx">
+      <publishTime>02/16/2017 16:10:10</publishTime>
+    </File>
+    <File Include="Inventory/AddProductCategory.aspx">
+      <publishTime>02/16/2017 16:18:47</publishTime>
+    </File>
+    <File Include="Inventory/AddSupplier.aspx">
+      <publishTime>02/16/2017 16:19:24</publishTime>
+    </File>
+    <File Include="Inventory/AddWarehouse.aspx">
+      <publishTime>02/16/2017 16:21:02</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/AddCustomer.aspx.ar-EG.resx">
+      <publishTime>02/16/2017 15:06:06</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/AddCustomer.aspx.resx">
+      <publishTime>02/16/2017 15:02:11</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/AddNewItemToStock.aspx.ar-EG.resx">
+      <publishTime>02/16/2017 16:05:36</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/AddNewItemToStock.aspx.resx">
+      <publishTime>02/16/2017 15:57:43</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/AddProduct.aspx.ar-EG.resx">
+      <publishTime>02/16/2017 16:16:39</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/AddProduct.aspx.resx">
+      <publishTime>02/16/2017 16:09:37</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/AddProductCategory.aspx.ar-EG.resx">
+      <publishTime>02/16/2017 16:18:28</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/AddProductCategory.aspx.resx">
+      <publishTime>02/16/2017 16:17:10</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/AddSupplier.aspx.ar-EG.resx">
+      <publishTime>02/16/2017 16:20:15</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/AddSupplier.aspx.resx">
+      <publishTime>02/16/2017 16:19:04</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/AddWarehouse.aspx.ar-EG.resx">
+      <publishTime>02/16/2017 16:22:09</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/AddWarehouse.aspx.resx">
+      <publishTime>02/16/2017 16:20:43</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/Customers.aspx.resx">
+      <publishTime>02/16/2017 16:24:36</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/Customers.aspxar-EG.resx">
+      <publishTime>02/16/2017 16:26:30</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedCustomers.aspx.ar-EG.resx">
+      <publishTime>02/16/2017 16:31:11</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedCustomers.aspx.resx">
+      <publishTime>02/16/2017 16:29:08</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedDispatchItems.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 12:42:36</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedDispatchItems.aspx.resx">
+      <publishTime>02/19/2017 12:37:52</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedOrders.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 12:51:37</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedOrders.aspx.resx">
+      <publishTime>02/19/2017 12:46:12</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedProducts.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 12:57:12</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedProducts.aspx.resx">
+      <publishTime>02/19/2017 12:55:15</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedRestocedItems.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:01:25</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedRestocedItems.aspx.resx">
+      <publishTime>02/19/2017 12:58:48</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedSalesOrders.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:04:35</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedSalesOrders.aspx.resx">
+      <publishTime>02/19/2017 13:02:49</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedSuppliers.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:07:49</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DeletedSuppliers.aspx.resx">
+      <publishTime>02/19/2017 13:06:13</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DispatchItem.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:09:51</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/DispatchItem.aspx.resx">
+      <publishTime>02/19/2017 13:08:13</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/InventoryMasterPage.Master.ar-EG.resx">
+      <publishTime>02/16/2017 15:53:47</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/InventoryMasterPage.Master.resx">
+      <publishTime>01/22/2017 20:18:29</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ListDispatches.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:16:54</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ListDispatches.aspx.resx">
+      <publishTime>02/19/2017 13:14:42</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/LowStock.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:23:22</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/LowStock.aspx.resx">
+      <publishTime>02/19/2017 13:22:46</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/NewOrder.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:27:24</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/NewOrder.aspx.resx">
+      <publishTime>02/19/2017 13:21:37</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/NewSalesOrder.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:31:00</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/NewSalesOrder.aspx.resx">
+      <publishTime>02/19/2017 13:28:29</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/Orders.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:34:23</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/Orders.aspx.resx">
+      <publishTime>02/19/2017 13:32:43</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/OutOfStock.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:38:09</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/OutOfStock.aspx.resx">
+      <publishTime>02/19/2017 13:36:17</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ProductCategories.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:41:58</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ProductCategories.aspx.resx">
+      <publishTime>02/19/2017 13:39:40</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/Products.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:48:12</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/Products.aspx.resx">
+      <publishTime>02/19/2017 13:46:25</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/RestockedItems.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:52:39</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/RestockedItems.aspx.resx">
+      <publishTime>02/19/2017 13:49:53</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/SalesOrders.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 13:55:50</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/SalesOrders.aspx.resx">
+      <publishTime>02/19/2017 13:54:07</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/Suppliers.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 14:00:07</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/Suppliers.aspx.resx">
+      <publishTime>02/19/2017 13:57:12</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewCustomer.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 16:27:42</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewCustomer.aspx.resx">
+      <publishTime>02/19/2017 16:16:19</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewDispatchItem.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 16:29:06</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewDispatchItem.aspx.resx">
+      <publishTime>02/19/2017 16:16:53</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewOrder.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 16:48:51</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewOrder.aspx.resx">
+      <publishTime>02/19/2017 16:17:32</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewProduct.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 16:57:22</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewProduct.aspx.resx">
+      <publishTime>02/19/2017 16:18:09</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewProductCategory.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 16:58:06</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewProductCategory.aspx.resx">
+      <publishTime>02/19/2017 16:18:41</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewRestockedItem.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 17:00:22</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewRestockedItem.aspx.resx">
+      <publishTime>02/19/2017 16:19:19</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewSalesOrder.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 17:02:06</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewSalesOrder.aspx.resx">
+      <publishTime>02/19/2017 16:20:05</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewSupplier.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 17:02:55</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewSupplier.aspx.resx">
+      <publishTime>02/19/2017 16:20:44</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewWarehouse.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 17:04:02</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/ViewWarehouse.aspx.resx">
+      <publishTime>02/19/2017 16:21:21</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/Warehouses.aspx.ar-EG.resx">
+      <publishTime>02/19/2017 14:03:50</publishTime>
+    </File>
+    <File Include="Inventory/App_LocalResources/Warehouses.aspx.resx">
+      <publishTime>02/19/2017 14:01:50</publishTime>
+    </File>
+    <File Include="Inventory/Customers.aspx">
+      <publishTime>02/16/2017 16:28:41</publishTime>
+    </File>
+    <File Include="Inventory/Default.aspx">
+      <publishTime>01/11/2017 18:10:10</publishTime>
+    </File>
+    <File Include="Inventory/DeletedCustomers.aspx">
+      <publishTime>02/16/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Inventory/DeletedDispatchItems.aspx">
+      <publishTime>02/19/2017 12:41:28</publishTime>
+    </File>
+    <File Include="Inventory/DeletedInvoices.aspx">
+      <publishTime>01/29/2017 19:03:32</publishTime>
+    </File>
+    <File Include="Inventory/DeletedOrders.aspx">
+      <publishTime>02/19/2017 12:52:00</publishTime>
+    </File>
+    <File Include="Inventory/DeletedProducts.aspx">
+      <publishTime>02/19/2017 13:02:33</publishTime>
+    </File>
+    <File Include="Inventory/DeletedRestocedItems.aspx">
+      <publishTime>02/19/2017 13:02:33</publishTime>
+    </File>
+    <File Include="Inventory/DeletedSalesOrders.aspx">
+      <publishTime>02/19/2017 13:05:49</publishTime>
+    </File>
+    <File Include="Inventory/DeletedSuppliers.aspx">
+      <publishTime>02/19/2017 13:07:50</publishTime>
+    </File>
+    <File Include="Inventory/DispatchItem.aspx">
+      <publishTime>02/19/2017 13:14:32</publishTime>
+    </File>
+    <File Include="Inventory/InventoryMasterPage.Master">
+      <publishTime>02/22/2017 16:09:05</publishTime>
+    </File>
+    <File Include="Inventory/Invoices.aspx">
+      <publishTime>01/29/2017 19:03:13</publishTime>
+    </File>
+    <File Include="Inventory/ListDispatches.aspx">
+      <publishTime>02/19/2017 13:15:08</publishTime>
+    </File>
+    <File Include="Inventory/LowStock.aspx">
+      <publishTime>02/19/2017 13:23:19</publishTime>
+    </File>
+    <File Include="Inventory/NewInvoice.aspx">
+      <publishTime>01/29/2017 19:02:53</publishTime>
+    </File>
+    <File Include="Inventory/NewOrder.aspx">
+      <publishTime>02/19/2017 13:23:11</publishTime>
+    </File>
+    <File Include="Inventory/NewSalesOrder.aspx">
+      <publishTime>02/19/2017 13:32:28</publishTime>
+    </File>
+    <File Include="Inventory/Orders.aspx">
+      <publishTime>02/19/2017 13:35:37</publishTime>
+    </File>
+    <File Include="Inventory/OutOfStock.aspx">
+      <publishTime>02/19/2017 13:39:26</publishTime>
+    </File>
+    <File Include="Inventory/ProductCategories.aspx">
+      <publishTime>02/19/2017 13:46:11</publishTime>
+    </File>
+    <File Include="Inventory/Products.aspx">
+      <publishTime>02/19/2017 13:49:42</publishTime>
+    </File>
+    <File Include="Inventory/RestockedItems.aspx">
+      <publishTime>02/19/2017 13:53:39</publishTime>
+    </File>
+    <File Include="Inventory/SalesOrders.aspx">
+      <publishTime>02/19/2017 13:57:29</publishTime>
+    </File>
+    <File Include="Inventory/Suppliers.aspx">
+      <publishTime>02/19/2017 13:57:29</publishTime>
+    </File>
+    <File Include="Inventory/ViewCustomer.aspx">
+      <publishTime>02/19/2017 16:17:58</publishTime>
+    </File>
+    <File Include="Inventory/ViewDispatchItem.aspx">
+      <publishTime>02/19/2017 16:17:58</publishTime>
+    </File>
+    <File Include="Inventory/ViewOrder.aspx">
+      <publishTime>02/19/2017 16:17:58</publishTime>
+    </File>
+    <File Include="Inventory/ViewProduct.aspx">
+      <publishTime>02/19/2017 16:18:28</publishTime>
+    </File>
+    <File Include="Inventory/ViewProductCategory.aspx">
+      <publishTime>02/19/2017 16:19:49</publishTime>
+    </File>
+    <File Include="Inventory/ViewRestockedItem.aspx">
+      <publishTime>02/19/2017 16:19:49</publishTime>
+    </File>
+    <File Include="Inventory/ViewSalesOrder.aspx">
+      <publishTime>02/19/2017 16:21:34</publishTime>
+    </File>
+    <File Include="Inventory/ViewSupplier.aspx">
+      <publishTime>02/19/2017 16:21:34</publishTime>
+    </File>
+    <File Include="Inventory/ViewWarehouse.aspx">
+      <publishTime>02/19/2017 16:21:34</publishTime>
+    </File>
+    <File Include="Inventory/Warehouses.aspx">
+      <publishTime>02/19/2017 14:02:20</publishTime>
+    </File>
+    <File Include="js/accordion.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/autogrow.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/bootstrap-colorpicker.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/bootstrap-datepicker.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/bootstrap-dropdown.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.barRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.barRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.BezierCurveRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.BezierCurveRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.blockRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.blockRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.bubbleRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.bubbleRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.canvasAxisLabelRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.canvasAxisLabelRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.canvasAxisTickRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.canvasAxisTickRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.canvasOverlay.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.canvasOverlay.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.canvasTextRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.canvasTextRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.categoryAxisRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.categoryAxisRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.ciParser.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.ciParser.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.cursor.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.cursor.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.dateAxisRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.dateAxisRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.donutRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.donutRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.dragable.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.dragable.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.enhancedLegendRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.enhancedLegendRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.funnelRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.funnelRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.highlighter.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.highlighter.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.json2.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.json2.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.logAxisRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.logAxisRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.mekkoAxisRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.mekkoAxisRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.mekkoRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.mekkoRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.meterGaugeRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.meterGaugeRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.ohlcRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.ohlcRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.pieRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.pieRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.pointLabels.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.pointLabels.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.pyramidAxisRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.pyramidAxisRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.pyramidGridRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.pyramidGridRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.pyramidRenderer.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.pyramidRenderer.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.trendline.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/jqplot.trendline.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chart-plugins/vssver.scc">
+      <publishTime>04/02/2016 01:28:10</publishTime>
+    </File>
+    <File Include="js/check-all.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/chosen.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shAutoloader.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushAppleScript.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushAS3.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushBash.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushColdFusion.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushCpp.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushCSharp.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushCss.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushDelphi.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushDiff.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushErlang.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushGroovy.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushJava.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushJavaFX.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushJScript.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushPerl.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushPhp.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushPlain.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushPowerShell.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushPython.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushRuby.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushSass.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushScala.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushSql.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushVb.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shBrushXml.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shCore.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/shLegacy.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/brush/vssver.scc">
+      <publishTime>04/02/2016 01:30:16</publishTime>
+    </File>
+    <File Include="js/code-highlighter/shAutoloader.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/shCore.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/code-highlighter/vssver.scc">
+      <publishTime>04/02/2016 01:30:27</publishTime>
+    </File>
+    <File Include="js/ColVis.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/custom-scripts.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/data-table.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/duallist.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/easing.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/elfinder.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/excanvas.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/fg.menu.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/full-calendar.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/input-limiter.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/inputmask.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/iphone-style-checkbox.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jeditable.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery-1.7.1.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery-ui-1.8.18.custom.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.autocomplete.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.cleditor.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.collapse.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.colorbox-min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.confirm.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.cookie.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.idTabs.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.jBreadCrumb.1.1.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.jqplot.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.multiFieldExtender.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.noty.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.peity.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.simplemodal.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.tagsinput.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.tipsy.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/jquery.ui.touch-punch.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/localdata.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/meta-data.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/mosaic.1.0.1.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/quicksand.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/raty.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/selectToUISlider.jQuery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/smart-wizard.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/stepy.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/sticky.full.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/TableTools.min.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/treeview.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/ui-accordion.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/uniform.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/vaidation.jquery.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="js/vssver.scc">
+      <publishTime>04/02/2016 01:33:40</publishTime>
+    </File>
+    <File Include="js/ZeroClipboard.js">
+      <publishTime>03/01/2016 18:15:21</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/10/2017 18:19:45</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>04/03/2016 21:43:38</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>04/03/2016 21:43:38</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>04/03/2016 21:43:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>04/03/2016 21:43:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>03/01/2016 18:15:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>04/03/2016 21:43:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>04/03/2016 21:43:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>03/06/2016 20:00:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>03/06/2016 20:00:27</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>04/03/2016 21:43:43</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>04/03/2016 21:43:43</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>04/03/2016 21:43:43</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/DetailsView.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Focus.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/GridView.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Menu.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MenuStandards.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/SmartNav.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/TreeView.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebForms.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebParts.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebUIValidation.js">
+      <publishTime>03/01/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>08/11/2017 22:16:51</publishTime>
+    </File>
+    <File Include="Settings/AddRole.aspx">
+      <publishTime>02/15/2017 17:02:32</publishTime>
+    </File>
+    <File Include="Settings/AddUser.aspx">
+      <publishTime>02/15/2017 17:03:25</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/AddRole.aspx.ar-EG.resx">
+      <publishTime>04/04/2016 03:09:19</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/AddRole.aspx.resx">
+      <publishTime>04/04/2016 03:09:22</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/AddUser.aspx.ar-EG.resx">
+      <publishTime>04/03/2016 23:11:14</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/AddUser.aspx.resx">
+      <publishTime>04/04/2016 00:43:36</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/Roles.aspx.ar-EG.resx">
+      <publishTime>04/03/2016 03:35:11</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/Roles.aspx.resx">
+      <publishTime>04/04/2016 00:43:45</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/SettingMasterPage.master.ar-EG.resx">
+      <publishTime>04/03/2016 22:24:41</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/SettingMasterPage.master.resx">
+      <publishTime>04/04/2016 00:46:47</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/UnAuthorized.aspx.ae-EG.resx">
+      <publishTime>04/04/2016 02:52:36</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/UnAuthorized.aspx.resx">
+      <publishTime>04/04/2016 02:52:12</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/Users.aspx.ar-EG.resx">
+      <publishTime>04/03/2016 03:36:58</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/Users.aspx.resx">
+      <publishTime>04/04/2016 00:45:36</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/ViewRole.aspx.ar-EG.resx">
+      <publishTime>04/27/2016 13:47:38</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/ViewRole.aspx.resx">
+      <publishTime>04/27/2016 13:47:50</publishTime>
+    </File>
+    <File Include="Settings/App_LocalResources/vssver.scc">
+      <publishTime>04/04/2016 04:34:59</publishTime>
+    </File>
+    <File Include="Settings/Default.aspx">
+      <publishTime>04/04/2016 02:20:56</publishTime>
+    </File>
+    <File Include="Settings/Roles.aspx">
+      <publishTime>02/15/2017 17:03:50</publishTime>
+    </File>
+    <File Include="Settings/SettingMasterPage.Master">
+      <publishTime>06/11/2017 21:16:36</publishTime>
+    </File>
+    <File Include="Settings/UnAuthorized.aspx">
+      <publishTime>02/15/2017 17:13:31</publishTime>
+    </File>
+    <File Include="Settings/Users.aspx">
+      <publishTime>02/15/2017 17:13:59</publishTime>
+    </File>
+    <File Include="Settings/ViewRole.aspx">
+      <publishTime>02/15/2017 17:15:03</publishTime>
+    </File>
+    <File Include="Settings/ViewUser.aspx">
+      <publishTime>02/15/2017 17:16:01</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>03/02/2016 06:00:42</publishTime>
+    </File>
+    <File Include="StudentAfair/Absent.aspx">
+      <publishTime>02/19/2017 17:13:23</publishTime>
+    </File>
+    <File Include="StudentAfair/AddAbsent.aspx">
+      <publishTime>02/19/2017 17:13:32</publishTime>
+    </File>
+    <File Include="StudentAfair/AddBord.aspx">
+      <publishTime>08/12/2017 23:56:31</publishTime>
+    </File>
+    <File Include="StudentAfair/AddBus.aspx">
+      <publishTime>08/12/2017 17:42:11</publishTime>
+    </File>
+    <File Include="StudentAfair/AddBusLine.aspx">
+      <publishTime>08/12/2017 18:37:38</publishTime>
+    </File>
+    <File Include="StudentAfair/AddClass.aspx">
+      <publishTime>02/15/2017 16:20:55</publishTime>
+    </File>
+    <File Include="StudentAfair/AddCourse.aspx">
+      <publishTime>02/15/2017 16:21:52</publishTime>
+    </File>
+    <File Include="StudentAfair/AddDocuments.aspx">
+      <publishTime>02/15/2017 16:22:44</publishTime>
+    </File>
+    <File Include="StudentAfair/AddDriver.aspx">
+      <publishTime>08/11/2017 22:26:51</publishTime>
+    </File>
+    <File Include="StudentAfair/AddExam.aspx">
+      <publishTime>02/15/2017 16:25:02</publishTime>
+    </File>
+    <File Include="StudentAfair/AddExamDegree.aspx">
+      <publishTime>02/15/2017 16:26:09</publishTime>
+    </File>
+    <File Include="StudentAfair/AddFloor.aspx">
+      <publishTime>08/12/2017 23:56:33</publishTime>
+    </File>
+    <File Include="StudentAfair/AddParent.aspx">
+      <publishTime>02/15/2017 16:27:24</publishTime>
+    </File>
+    <File Include="StudentAfair/AddStation.aspx">
+      <publishTime>08/11/2017 22:32:10</publishTime>
+    </File>
+    <File Include="StudentAfair/AddStudent.aspx">
+      <publishTime>02/15/2017 16:30:36</publishTime>
+    </File>
+    <File Include="StudentAfair/AddSupervisor.aspx">
+      <publishTime>08/13/2017 00:49:36</publishTime>
+    </File>
+    <File Include="StudentAfair/AddTeacher.aspx">
+      <publishTime>02/15/2017 16:31:33</publishTime>
+    </File>
+    <File Include="StudentAfair/AddYear.aspx">
+      <publishTime>02/15/2017 16:32:49</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Absent.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Absent.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddAbsent.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddAbsent.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddBord.aspx.ar-EG.resx">
+      <publishTime>08/12/2017 23:54:47</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddBord.aspx.resx">
+      <publishTime>08/12/2017 23:53:17</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddBus.aspx.ar-EG.resx">
+      <publishTime>08/11/2017 23:38:59</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddBus.aspx.resx">
+      <publishTime>08/11/2017 22:09:43</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddBusLine.aspx.ar-EG.resx">
+      <publishTime>08/11/2017 22:24:41</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddBusLine.aspx.resx">
+      <publishTime>08/11/2017 22:24:55</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddClass.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddClass.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddCourse.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddCourse.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddDocuments.aspx.ar-EG.resx">
+      <publishTime>04/06/2016 05:41:13</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddDocuments.aspx.resx">
+      <publishTime>04/06/2016 05:33:59</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddDriver.aspx.ar-EG.resx">
+      <publishTime>08/11/2017 22:28:50</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddDriver.aspx.resx">
+      <publishTime>08/11/2017 22:25:59</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddExam.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddExam.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddExamDegree.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddExamDegree.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddFloor.aspx.ar-EG.resx">
+      <publishTime>08/12/2017 23:57:29</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddFloor.aspx.resx">
+      <publishTime>08/12/2017 23:56:28</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddParent.aspx.ar-EG.resx">
+      <publishTime>08/22/2016 02:40:27</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddParent.aspx.resx">
+      <publishTime>08/22/2016 02:40:02</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddStation.aspx.ar-EG.resx">
+      <publishTime>08/11/2017 22:31:17</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddStation.aspx.resx">
+      <publishTime>08/11/2017 22:30:03</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddStudent.aspx.ar-EG.resx">
+      <publishTime>08/22/2016 02:29:30</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddStudent.aspx.resx">
+      <publishTime>08/22/2016 02:29:11</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddSupervisor.aspx.ar-EG.resx">
+      <publishTime>08/13/2017 00:00:28</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddSupervisor.aspx.resx">
+      <publishTime>08/12/2017 23:59:29</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddTeacher.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddTeacher.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddYear.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/AddYear.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/BoardList.aspx.ar-EG.resx">
+      <publishTime>08/13/2017 00:05:03</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/BoardList.aspx.resx">
+      <publishTime>08/13/2017 00:02:58</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/BusLineList.aspx.ar-EG.resx">
+      <publishTime>08/11/2017 22:39:35</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/BusLineList.aspx.resx">
+      <publishTime>08/11/2017 22:39:56</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/BusList.aspx.ar-EG.resx">
+      <publishTime>08/11/2017 22:45:18</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/BusList.aspx.resx">
+      <publishTime>08/11/2017 22:43:17</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Classes.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Classes.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ClassSchedule.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ClassSchedule.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/CloseEducationalYear.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/CloseEducationalYear.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Courses.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Courses.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Document.aspx.ar-EG.resx">
+      <publishTime>04/06/2016 06:12:36</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Document.aspx.resx">
+      <publishTime>04/06/2016 06:08:53</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Drivers.aspx.ar-EG.resx">
+      <publishTime>08/11/2017 23:31:44</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Drivers.aspx.resx">
+      <publishTime>08/11/2017 22:47:16</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/EducationYears.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/EducationYears.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Exams.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Exams.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/FloorList.aspx.ar-EG.resx">
+      <publishTime>08/13/2017 00:08:57</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/FloorList.aspx.resx">
+      <publishTime>08/13/2017 00:07:19</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Parents.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Parents.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/SendMail.aspx.ar-EG.resx">
+      <publishTime>07/31/2016 12:08:53</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/SendMail.aspx.resx">
+      <publishTime>07/31/2016 12:07:02</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/SFMasterPage.master.ar-EG.resx">
+      <publishTime>08/11/2017 21:48:22</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/SFMasterPage.master.resx">
+      <publishTime>08/11/2017 21:46:36</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/SittingNumberList.aspx.ar-EG.resx">
+      <publishTime>08/13/2017 00:19:43</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/SittingNumberList.aspx.resx">
+      <publishTime>08/13/2017 00:14:57</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/StationList.aspx.ar-EG.resx">
+      <publishTime>08/11/2017 23:34:39</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/StationList.aspx.resx">
+      <publishTime>08/11/2017 23:33:07</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/StudentBusList.aspx.ar-EG.resx">
+      <publishTime>08/13/2017 00:25:48</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/StudentBusList.aspx.resx">
+      <publishTime>08/13/2017 00:22:54</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Students.aspx.ar-EG.resx">
+      <publishTime>08/05/2016 12:31:19</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Students.aspx.resx">
+      <publishTime>08/05/2016 12:27:58</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/SupervisorList.aspx.ar-EG.resx">
+      <publishTime>08/13/2017 00:12:51</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/SupervisorList.aspx.resx">
+      <publishTime>08/13/2017 00:11:19</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Teachers.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/Teachers.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/UsersNotExist.aspx.ar-EG.resx">
+      <publishTime>08/05/2016 12:27:11</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/UsersNotExist.aspx.resx">
+      <publishTime>08/05/2016 12:24:26</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewBord.aspx.ar-EG.resx">
+      <publishTime>08/13/2017 00:31:27</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewBord.aspx.resx">
+      <publishTime>08/13/2017 00:29:57</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewBus.aspx.ar-EG.resx">
+      <publishTime>08/11/2017 23:38:26</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewBus.aspx.resx">
+      <publishTime>08/11/2017 23:36:25</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewBusLine.aspx.ar-EG.resx">
+      <publishTime>08/13/2017 00:56:21</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewBusLine.aspx.resx">
+      <publishTime>08/13/2017 00:53:12</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewClass.aspx.ar-EG.resx">
+      <publishTime>06/27/2016 21:05:28</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewClass.aspx.resx">
+      <publishTime>06/27/2016 21:01:29</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewCourse.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewCourse.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewDocuments.aspx.ar-EG.resx">
+      <publishTime>04/06/2016 06:42:14</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewDocuments.aspx.resx">
+      <publishTime>04/06/2016 06:41:41</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewDriver.aspx.ar-EG.resx">
+      <publishTime>08/11/2017 23:44:37</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewDriver.aspx.resx">
+      <publishTime>08/11/2017 23:42:43</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewExam.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewExam.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewFloor.aspx.ar-EG.resx">
+      <publishTime>08/13/2017 00:35:16</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewFloor.aspx.resx">
+      <publishTime>08/13/2017 00:33:37</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewFollowup.aspx.ar-EG.resx">
+      <publishTime>04/11/2016 20:04:24</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewFollowup.aspx.resx">
+      <publishTime>04/11/2016 20:02:31</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewParent.aspx.ar-EG.resx">
+      <publishTime>04/06/2016 13:58:46</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewParent.aspx.resx">
+      <publishTime>04/06/2016 13:56:08</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewStation.aspx.ar-EG.resx">
+      <publishTime>08/11/2017 23:46:36</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewStation.aspx.resx">
+      <publishTime>08/11/2017 23:45:32</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewStudent.aspx.ar-EG.resx">
+      <publishTime>11/08/2016 22:06:04</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewStudent.aspx.resx">
+      <publishTime>11/08/2016 21:55:38</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewSupervisor.aspx.ar-EG.resx">
+      <publishTime>08/13/2017 00:38:47</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewSupervisor.aspx.resx">
+      <publishTime>08/13/2017 00:36:48</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewTeacher.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewTeacher.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewYear.aspx.ar-EG.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/ViewYear.aspx.resx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/App_LocalResources/vssver.scc">
+      <publishTime>10/11/2016 01:04:30</publishTime>
+    </File>
+    <File Include="StudentAfair/BoardList.aspx">
+      <publishTime>08/13/2017 00:03:01</publishTime>
+    </File>
+    <File Include="StudentAfair/BusLineList.aspx">
+      <publishTime>08/12/2017 18:14:56</publishTime>
+    </File>
+    <File Include="StudentAfair/BusList.aspx">
+      <publishTime>08/12/2017 23:09:25</publishTime>
+    </File>
+    <File Include="StudentAfair/Certificates.aspx">
+      <publishTime>03/02/2016 05:21:05</publishTime>
+    </File>
+    <File Include="StudentAfair/Classes.aspx">
+      <publishTime>02/15/2017 16:33:50</publishTime>
+    </File>
+    <File Include="StudentAfair/ClassSchedule.aspx">
+      <publishTime>02/15/2017 16:35:09</publishTime>
+    </File>
+    <File Include="StudentAfair/CloseEducationalYear.aspx">
+      <publishTime>02/15/2017 16:36:56</publishTime>
+    </File>
+    <File Include="StudentAfair/Courses.aspx">
+      <publishTime>02/15/2017 16:37:26</publishTime>
+    </File>
+    <File Include="StudentAfair/Default.aspx">
+      <publishTime>03/02/2016 05:25:59</publishTime>
+    </File>
+    <File Include="StudentAfair/Document.aspx">
+      <publishTime>02/15/2017 16:38:03</publishTime>
+    </File>
+    <File Include="StudentAfair/Documents/20160213212942Arabic.GIF">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/Documents/201602132131201.jpg">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/Documents/20160213233235Arabic.GIF">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/Documents/20160213233334Arabic.GIF">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/Documents/20160214011725Sample.xls.xlsx">
+      <publishTime>03/01/2016 18:32:40</publishTime>
+    </File>
+    <File Include="StudentAfair/Documents/vssver.scc">
+      <publishTime>04/02/2016 04:38:15</publishTime>
+    </File>
+    <File Include="StudentAfair/Drivers.aspx">
+      <publishTime>08/11/2017 23:29:45</publishTime>
+    </File>
+    <File Include="StudentAfair/EducationYears.aspx">
+      <publishTime>02/15/2017 16:38:31</publishTime>
+    </File>
+    <File Include="StudentAfair/Exams.aspx">
+      <publishTime>02/15/2017 16:38:56</publishTime>
+    </File>
+    <File Include="StudentAfair/FloorList.aspx">
+      <publishTime>08/13/2017 00:10:59</publishTime>
+    </File>
+    <File Include="StudentAfair/Parents.aspx">
+      <publishTime>02/15/2017 16:39:36</publishTime>
+    </File>
+    <File Include="StudentAfair/SendMail.aspx">
+      <publishTime>02/15/2017 16:41:17</publishTime>
+    </File>
+    <File Include="StudentAfair/SFMasterPage.Master">
+      <publishTime>08/12/2017 22:45:15</publishTime>
+    </File>
+    <File Include="StudentAfair/SittingNumberList.aspx">
+      <publishTime>08/13/2017 00:15:28</publishTime>
+    </File>
+    <File Include="StudentAfair/StationList.aspx">
+      <publishTime>08/11/2017 23:35:58</publishTime>
+    </File>
+    <File Include="StudentAfair/StudentBusList.aspx">
+      <publishTime>08/13/2017 00:23:10</publishTime>
+    </File>
+    <File Include="StudentAfair/Students.aspx">
+      <publishTime>02/19/2017 17:14:17</publishTime>
+    </File>
+    <File Include="StudentAfair/SupervisorList.aspx">
+      <publishTime>08/13/2017 00:11:25</publishTime>
+    </File>
+    <File Include="StudentAfair/Teachers.aspx">
+      <publishTime>02/15/2017 16:45:04</publishTime>
+    </File>
+    <File Include="StudentAfair/UnAuthorized.aspx">
+      <publishTime>02/15/2017 16:45:09</publishTime>
+    </File>
+    <File Include="StudentAfair/UsersNotExist.aspx">
+      <publishTime>02/19/2017 17:14:30</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewBord.aspx">
+      <publishTime>08/13/2017 00:30:08</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewBus.aspx">
+      <publishTime>08/11/2017 23:39:03</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewBusLine.aspx">
+      <publishTime>08/13/2017 00:53:42</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewClass.aspx">
+      <publishTime>02/19/2017 17:14:46</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewCourse.aspx">
+      <publishTime>02/19/2017 17:14:58</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewDocuments.aspx">
+      <publishTime>02/15/2017 16:49:32</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewDriver.aspx">
+      <publishTime>08/11/2017 23:45:36</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewExam.aspx">
+      <publishTime>02/15/2017 16:51:13</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewFloor.aspx">
+      <publishTime>08/13/2017 00:49:17</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewFollowup.aspx">
+      <publishTime>02/19/2017 17:15:23</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewParent.aspx">
+      <publishTime>02/19/2017 17:15:32</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewStation.aspx">
+      <publishTime>08/11/2017 23:45:34</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewStudent.aspx">
+      <publishTime>02/19/2017 17:16:16</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewSupervisor.aspx">
+      <publishTime>08/13/2017 00:37:51</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewTeacher.aspx">
+      <publishTime>02/15/2017 16:58:34</publishTime>
+    </File>
+    <File Include="StudentAfair/ViewYear.aspx">
+      <publishTime>02/19/2017 17:17:03</publishTime>
+    </File>
+    <File Include="ViewSwitcher.ascx">
+      <publishTime>02/15/2017 17:17:15</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/13/2017 00:57:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="lms.elhoryaschool.com" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Hossam-\\Documents\\GitHub\\Madares\\ERPWebForms\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Hossam-\\Documents\\GitHub\\Madares\\ERPWebForms\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ERP2ConnectionString-Web.config Connection String" description="" value="Data Source=.;Initial Catalog=ERP;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hossam-\\Documents\\GitHub\\Madares\\ERPWebForms\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ERP2ConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="ERP2ConnectionString2-Web.config Connection String" description="" value="Data Source=.;Initial Catalog=ERP;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hossam-\\Documents\\GitHub\\Madares\\ERPWebForms\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ERP2ConnectionString2']/@connectionString" />
+  </parameter>
+  <parameter name="ERP2ConnectionString3-Web.config Connection String" description="" value="Data Source=.;Initial Catalog=ERP;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hossam-\\Documents\\GitHub\\Madares\\ERPWebForms\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ERP2ConnectionString3']/@connectionString" />
+  </parameter>
+  <parameter name="MyConn-Web.config Connection String" description="" value="Data Source=.;Initial Catalog=ERP;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hossam-\\Documents\\GitHub\\Madares\\ERPWebForms\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyConn']/@connectionString" />
+  </parameter>
+  <parameter name="MysqlConnection-Web.config Connection String" description="" value="Server=localhost;Database=school;Uid=root;Pwd=root;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hossam-\\Documents\\GitHub\\Madares\\ERPWebForms\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MysqlConnection']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." value="DefaultConnection_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hossam-\\Documents\\GitHub\\Madares\\ERPWebForms\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

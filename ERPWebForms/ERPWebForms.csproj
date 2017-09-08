@@ -294,96 +294,6 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
-    <Content Include="bin\AjaxControlToolkit.dll" />
-    <Content Include="bin\Antlr3.Runtime.dll" />
-    <Content Include="bin\Antlr3.Runtime.pdb" />
-    <Content Include="bin\AspNet.ScriptManager.bootstrap.dll" />
-    <Content Include="bin\AspNet.ScriptManager.jQuery.dll" />
-    <Content Include="bin\DevExpress.Charts.v14.2.Core.dll" />
-    <Content Include="bin\DevExpress.CodeConverter.v14.2.dll" />
-    <Content Include="bin\DevExpress.CodeParser.v14.2.dll" />
-    <Content Include="bin\DevExpress.Dashboard.v14.2.Core.dll" />
-    <Content Include="bin\DevExpress.Dashboard.v14.2.Web.dll" />
-    <Content Include="bin\DevExpress.Dashboard.v14.2.Web.Mvc.dll" />
-    <Content Include="bin\DevExpress.Dashboard.v14.2.Web.Mvc5.dll" />
-    <Content Include="bin\DevExpress.Dashboard.v14.2.Win.dll" />
-    <Content Include="bin\DevExpress.Data.v14.2.dll" />
-    <Content Include="bin\DevExpress.Office.v14.2.Core.dll" />
-    <Content Include="bin\DevExpress.Printing.v14.2.Core.dll" />
-    <Content Include="bin\DevExpress.RichEdit.v14.2.Core.dll" />
-    <Content Include="bin\DevExpress.Utils.v14.2.dll" />
-    <Content Include="bin\DevExpress.Web.ASPxPivotGrid.v14.2.dll" />
-    <Content Include="bin\DevExpress.Web.ASPxRichEdit.v14.2.dll" />
-    <Content Include="bin\DevExpress.Web.ASPxScheduler.v14.2.dll" />
-    <Content Include="bin\DevExpress.Web.ASPxSpreadsheet.v14.2.dll" />
-    <Content Include="bin\DevExpress.Web.ASPxThemes.v14.2.dll" />
-    <Content Include="bin\DevExpress.Web.ASPxTreeList.v14.2.dll" />
-    <Content Include="bin\DevExpress.Web.Mvc.v14.2.dll" />
-    <Content Include="bin\DevExpress.Web.Mvc5.v14.2.dll" />
-    <Content Include="bin\DevExpress.Web.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.NavBar.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Printing.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Printing.v14.2.Service.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.DXStyle.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.HybridApp.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.LightGray.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.MetropolisDark.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.MetropolisLight.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.Office2007Black.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.Office2007Blue.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.Office2007Silver.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.Office2010Black.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.Office2010Blue.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.Office2010Silver.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.Office2013.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.Office2013DarkGray.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.Office2013LightGray.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.Seven.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.TouchlineDark.v14.2.dll" />
-    <Content Include="bin\DevExpress.Xpf.Themes.VS2010.v14.2.dll" />
-    <Content Include="bin\DevExpress.XtraPrinting.v14.2.dll" />
-    <Content Include="bin\DevExpress.XtraVerticalGrid.v14.2.dll" />
-    <Content Include="bin\DevExpress.XtraWizard.v14.2.dll" />
-    <Content Include="bin\EntityFramework.dll" />
-    <Content Include="bin\EntityFramework.SqlServer.dll" />
-    <Content Include="bin\ERPWebForms.dll" />
-    <Content Include="bin\ERPWebForms.dll.config" />
-    <Content Include="bin\ERPWebForms.pdb" />
-    <Content Include="bin\ERPWebForms.Tests.dll" />
-    <Content Include="bin\Microsoft.AspNet.FriendlyUrls.dll" />
-    <Content Include="bin\Microsoft.AspNet.Identity.Core.dll" />
-    <Content Include="bin\Microsoft.AspNet.Identity.EntityFramework.dll" />
-    <Content Include="bin\Microsoft.AspNet.Identity.Owin.dll" />
-    <Content Include="bin\Microsoft.AspNet.Web.Optimization.WebForms.dll" />
-    <Content Include="bin\Microsoft.Owin.dll" />
-    <Content Include="bin\Microsoft.Owin.Host.SystemWeb.dll" />
-    <Content Include="bin\Microsoft.Owin.Security.Cookies.dll" />
-    <Content Include="bin\Microsoft.Owin.Security.dll" />
-    <Content Include="bin\Microsoft.Owin.Security.Facebook.dll" />
-    <Content Include="bin\Microsoft.Owin.Security.Google.dll" />
-    <Content Include="bin\Microsoft.Owin.Security.MicrosoftAccount.dll" />
-    <Content Include="bin\Microsoft.Owin.Security.OAuth.dll" />
-    <Content Include="bin\Microsoft.Owin.Security.Twitter.dll" />
-    <Content Include="bin\Microsoft.ScriptManager.MSAjax.dll" />
-    <Content Include="bin\Microsoft.ScriptManager.WebForms.dll" />
-    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
-    <Content Include="bin\MySql.Data.dll" />
-    <Content Include="bin\MySql.Web.dll" />
-    <Content Include="bin\Newtonsoft.Json.dll" />
-    <Content Include="bin\Owin.dll" />
-    <Content Include="bin\System.Net.Http.Formatting.dll" />
-    <Content Include="bin\System.Web.Helpers.dll" />
-    <Content Include="bin\System.Web.Http.dll" />
-    <Content Include="bin\System.Web.Http.WebHost.dll" />
-    <Content Include="bin\System.Web.Mvc.dll" />
-    <Content Include="bin\System.Web.Optimization.dll" />
-    <Content Include="bin\System.Web.Providers.dll" />
-    <Content Include="bin\System.Web.Razor.dll" />
-    <Content Include="bin\System.Web.WebPages.Deployment.dll" />
-    <Content Include="bin\System.Web.WebPages.dll" />
-    <Content Include="bin\System.Web.WebPages.Razor.dll" />
-    <Content Include="bin\vssver.scc" />
-    <Content Include="bin\WebGrease.dll" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -1005,10 +915,11 @@
     <Content Include="HR\HRMasterPage.Master" />
     <Content Include="Business\vssver.scc" />
     <Content Include="Inventory\InventoryMasterPage.Master" />
-    <None Include="Properties\PublishProfiles\hr.pubxml" />
     <None Include="Properties\PublishProfiles\lms.elhoryaschool.com - Web Deploy.pubxml">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Properties\PublishProfiles\Madares13-8-2017.pubxml" />
+    <None Include="Properties\PublishProfiles\Madares14-8-2017.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -1056,15 +967,25 @@
     <Content Include="Settings\ViewUser.aspx" />
     <Content Include="StudentAfair\Absent.aspx" />
     <Content Include="StudentAfair\AddAbsent.aspx" />
+    <Content Include="StudentAfair\AddBord.aspx" />
+    <Content Include="StudentAfair\AddBus.aspx" />
+    <Content Include="StudentAfair\AddBusLine.aspx" />
     <Content Include="StudentAfair\AddClass.aspx" />
     <Content Include="StudentAfair\AddCourse.aspx" />
     <Content Include="StudentAfair\AddDocuments.aspx" />
+    <Content Include="StudentAfair\AddDriver.aspx" />
     <Content Include="StudentAfair\AddExam.aspx" />
     <Content Include="StudentAfair\AddExamDegree.aspx" />
+    <Content Include="StudentAfair\AddFloor.aspx" />
     <Content Include="StudentAfair\AddParent.aspx" />
+    <Content Include="StudentAfair\AddStation.aspx" />
     <Content Include="StudentAfair\AddStudent.aspx" />
+    <Content Include="StudentAfair\AddSupervisor.aspx" />
     <Content Include="StudentAfair\AddTeacher.aspx" />
     <Content Include="StudentAfair\AddYear.aspx" />
+    <Content Include="StudentAfair\BoardList.aspx" />
+    <Content Include="StudentAfair\BusLineList.aspx" />
+    <Content Include="StudentAfair\BusList.aspx" />
     <Content Include="StudentAfair\Certificates.aspx" />
     <Content Include="StudentAfair\Classes.aspx" />
     <Content Include="StudentAfair\ClassSchedule.aspx" />
@@ -1076,21 +997,34 @@
     <Content Include="StudentAfair\Documents\201602132131201.jpg" />
     <Content Include="StudentAfair\Documents\20160213233235Arabic.GIF" />
     <Content Include="StudentAfair\Documents\20160213233334Arabic.GIF" />
+    <Content Include="StudentAfair\Drivers.aspx" />
     <Content Include="StudentAfair\EducationYears.aspx" />
     <Content Include="StudentAfair\Exams.aspx" />
+    <Content Include="StudentAfair\FloorList.aspx" />
     <Content Include="StudentAfair\Parents.aspx" />
     <Content Include="StudentAfair\SendMail.aspx" />
+    <Content Include="StudentAfair\SittingNumberList.aspx" />
+    <Content Include="StudentAfair\StationList.aspx" />
+    <Content Include="StudentAfair\StudentBusList.aspx" />
     <Content Include="StudentAfair\Students.aspx" />
+    <Content Include="StudentAfair\SupervisorList.aspx" />
     <Content Include="StudentAfair\Teachers.aspx" />
     <Content Include="StudentAfair\UnAuthorized.aspx" />
     <Content Include="StudentAfair\UsersNotExist.aspx" />
+    <Content Include="StudentAfair\ViewBord.aspx" />
+    <Content Include="StudentAfair\ViewBus.aspx" />
+    <Content Include="StudentAfair\ViewBusLine.aspx" />
     <Content Include="StudentAfair\ViewClass.aspx" />
     <Content Include="StudentAfair\ViewCourse.aspx" />
     <Content Include="StudentAfair\ViewDocuments.aspx" />
+    <Content Include="StudentAfair\ViewDriver.aspx" />
     <Content Include="StudentAfair\ViewExam.aspx" />
+    <Content Include="StudentAfair\ViewFloor.aspx" />
     <Content Include="StudentAfair\ViewFollowup.aspx" />
     <Content Include="StudentAfair\ViewParent.aspx" />
+    <Content Include="StudentAfair\ViewStation.aspx" />
     <Content Include="StudentAfair\ViewStudent.aspx" />
+    <Content Include="StudentAfair\ViewSupervisor.aspx" />
     <Content Include="StudentAfair\ViewTeacher.aspx" />
     <Content Include="StudentAfair\ViewYear.aspx" />
     <Content Include="ViewSwitcher.ascx" />
@@ -1155,6 +1089,28 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Business\Bus\Controllers\ClsBus.cs" />
+    <Compile Include="Business\Bus\Controllers\ClsBusLine.cs" />
+    <Compile Include="Business\Bus\Controllers\ClsDriver.cs" />
+    <Compile Include="Business\Bus\Controllers\ClsStation.cs" />
+    <Compile Include="Business\Bus\Controllers\ClsStudentLine.cs" />
+    <Compile Include="Business\Bus\Models\BaseModel.cs" />
+    <Compile Include="Business\Bus\Models\Buses.cs" />
+    <Compile Include="Business\Bus\Models\BusLine.cs" />
+    <Compile Include="Business\Bus\Models\Driver.cs" />
+    <Compile Include="Business\Bus\Models\Station.cs" />
+    <Compile Include="Business\Bus\Models\StationLine.cs" />
+    <Compile Include="Business\Bus\Models\StudentLine.cs" />
+    <Compile Include="Business\control\Controllers\Clsboard.cs" />
+    <Compile Include="Business\control\Controllers\Clsfloor.cs" />
+    <Compile Include="Business\control\Controllers\ClsSittingNumber.cs" />
+    <Compile Include="Business\control\Controllers\Clssupervisor.cs" />
+    <Compile Include="Business\control\Models\BaseModel.cs" />
+    <Compile Include="Business\control\Models\board.cs" />
+    <Compile Include="Business\control\Models\floor.cs" />
+    <Compile Include="Business\control\Models\SittingNumber.cs" />
+    <Compile Include="Business\control\Models\StudentBord.cs" />
+    <Compile Include="Business\control\Models\supervisor.cs" />
     <Compile Include="Business\DataLayer\DataAccess.cs" />
     <Compile Include="Business\Inventory\Controllers\ClsCustomer.cs" />
     <Compile Include="Business\Inventory\Controllers\ClsDispatch.cs" />
@@ -2224,6 +2180,27 @@
     <Compile Include="StudentAfair\AddAbsent.aspx.designer.cs">
       <DependentUpon>AddAbsent.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentAfair\AddBord.aspx.cs">
+      <DependentUpon>AddBord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\AddBord.aspx.designer.cs">
+      <DependentUpon>AddBord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\AddBus.aspx.cs">
+      <DependentUpon>AddBus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\AddBus.aspx.designer.cs">
+      <DependentUpon>AddBus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\AddBusLine.aspx.cs">
+      <DependentUpon>AddBusLine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\AddBusLine.aspx.designer.cs">
+      <DependentUpon>AddBusLine.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentAfair\AddClass.aspx.cs">
       <DependentUpon>AddClass.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2245,6 +2222,13 @@
     <Compile Include="StudentAfair\AddDocuments.aspx.designer.cs">
       <DependentUpon>AddDocuments.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentAfair\AddDriver.aspx.cs">
+      <DependentUpon>AddDriver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\AddDriver.aspx.designer.cs">
+      <DependentUpon>AddDriver.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentAfair\AddExam.aspx.cs">
       <DependentUpon>AddExam.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2259,6 +2243,13 @@
     <Compile Include="StudentAfair\AddExamDegree.aspx.designer.cs">
       <DependentUpon>AddExamDegree.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentAfair\AddFloor.aspx.cs">
+      <DependentUpon>AddFloor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\AddFloor.aspx.designer.cs">
+      <DependentUpon>AddFloor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentAfair\AddParent.aspx.cs">
       <DependentUpon>AddParent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2266,12 +2257,26 @@
     <Compile Include="StudentAfair\AddParent.aspx.designer.cs">
       <DependentUpon>AddParent.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentAfair\AddStation.aspx.cs">
+      <DependentUpon>AddStation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\AddStation.aspx.designer.cs">
+      <DependentUpon>AddStation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentAfair\AddStudent.aspx.cs">
       <DependentUpon>AddStudent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="StudentAfair\AddStudent.aspx.designer.cs">
       <DependentUpon>AddStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\AddSupervisor.aspx.cs">
+      <DependentUpon>AddSupervisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\AddSupervisor.aspx.designer.cs">
+      <DependentUpon>AddSupervisor.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentAfair\AddTeacher.aspx.cs">
       <DependentUpon>AddTeacher.aspx</DependentUpon>
@@ -2286,6 +2291,27 @@
     </Compile>
     <Compile Include="StudentAfair\AddYear.aspx.designer.cs">
       <DependentUpon>AddYear.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\BoardList.aspx.cs">
+      <DependentUpon>BoardList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\BoardList.aspx.designer.cs">
+      <DependentUpon>BoardList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\BusLineList.aspx.cs">
+      <DependentUpon>BusLineList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\BusLineList.aspx.designer.cs">
+      <DependentUpon>BusLineList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\BusList.aspx.cs">
+      <DependentUpon>BusList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\BusList.aspx.designer.cs">
+      <DependentUpon>BusList.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentAfair\Certificates.aspx.cs">
       <DependentUpon>Certificates.aspx</DependentUpon>
@@ -2336,6 +2362,13 @@
     <Compile Include="StudentAfair\Document.aspx.designer.cs">
       <DependentUpon>Document.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentAfair\Drivers.aspx.cs">
+      <DependentUpon>Drivers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\Drivers.aspx.designer.cs">
+      <DependentUpon>Drivers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentAfair\EducationYears.aspx.cs">
       <DependentUpon>EducationYears.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2349,6 +2382,13 @@
     </Compile>
     <Compile Include="StudentAfair\Exams.aspx.designer.cs">
       <DependentUpon>Exams.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\FloorList.aspx.cs">
+      <DependentUpon>FloorList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\FloorList.aspx.designer.cs">
+      <DependentUpon>FloorList.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentAfair\Parents.aspx.cs">
       <DependentUpon>Parents.aspx</DependentUpon>
@@ -2371,12 +2411,40 @@
     <Compile Include="StudentAfair\SFMasterPage.Master.designer.cs">
       <DependentUpon>SFMasterPage.Master</DependentUpon>
     </Compile>
+    <Compile Include="StudentAfair\SittingNumberList.aspx.cs">
+      <DependentUpon>SittingNumberList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\SittingNumberList.aspx.designer.cs">
+      <DependentUpon>SittingNumberList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\StationList.aspx.cs">
+      <DependentUpon>StationList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\StationList.aspx.designer.cs">
+      <DependentUpon>StationList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\StudentBusList.aspx.cs">
+      <DependentUpon>StudentBusList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\StudentBusList.aspx.designer.cs">
+      <DependentUpon>StudentBusList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentAfair\Students.aspx.cs">
       <DependentUpon>Students.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="StudentAfair\Students.aspx.designer.cs">
       <DependentUpon>Students.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\SupervisorList.aspx.cs">
+      <DependentUpon>SupervisorList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\SupervisorList.aspx.designer.cs">
+      <DependentUpon>SupervisorList.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentAfair\Teachers.aspx.cs">
       <DependentUpon>Teachers.aspx</DependentUpon>
@@ -2399,6 +2467,27 @@
     <Compile Include="StudentAfair\UsersNotExist.aspx.designer.cs">
       <DependentUpon>UsersNotExist.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentAfair\ViewBord.aspx.cs">
+      <DependentUpon>ViewBord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\ViewBord.aspx.designer.cs">
+      <DependentUpon>ViewBord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\ViewBus.aspx.cs">
+      <DependentUpon>ViewBus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\ViewBus.aspx.designer.cs">
+      <DependentUpon>ViewBus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\ViewBusLine.aspx.cs">
+      <DependentUpon>ViewBusLine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\ViewBusLine.aspx.designer.cs">
+      <DependentUpon>ViewBusLine.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentAfair\ViewClass.aspx.cs">
       <DependentUpon>ViewClass.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2420,12 +2509,26 @@
     <Compile Include="StudentAfair\ViewDocuments.aspx.designer.cs">
       <DependentUpon>ViewDocuments.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentAfair\ViewDriver.aspx.cs">
+      <DependentUpon>ViewDriver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\ViewDriver.aspx.designer.cs">
+      <DependentUpon>ViewDriver.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentAfair\ViewExam.aspx.cs">
       <DependentUpon>ViewExam.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="StudentAfair\ViewExam.aspx.designer.cs">
       <DependentUpon>ViewExam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\ViewFloor.aspx.cs">
+      <DependentUpon>ViewFloor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\ViewFloor.aspx.designer.cs">
+      <DependentUpon>ViewFloor.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentAfair\ViewFollowup.aspx.cs">
       <DependentUpon>ViewFollowup.aspx</DependentUpon>
@@ -2441,12 +2544,26 @@
     <Compile Include="StudentAfair\ViewParent.aspx.designer.cs">
       <DependentUpon>ViewParent.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentAfair\ViewStation.aspx.cs">
+      <DependentUpon>ViewStation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\ViewStation.aspx.designer.cs">
+      <DependentUpon>ViewStation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentAfair\ViewStudent.aspx.cs">
       <DependentUpon>ViewStudent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="StudentAfair\ViewStudent.aspx.designer.cs">
       <DependentUpon>ViewStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAfair\ViewSupervisor.aspx.cs">
+      <DependentUpon>ViewSupervisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAfair\ViewSupervisor.aspx.designer.cs">
+      <DependentUpon>ViewSupervisor.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentAfair\ViewTeacher.aspx.cs">
       <DependentUpon>ViewTeacher.aspx</DependentUpon>
@@ -2800,6 +2917,52 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\licenses.licx" />
+    <Content Include="StudentAfair\App_LocalResources\AddBus.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddBus.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddBusLine.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddBusLine.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddDriver.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddDriver.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddStation.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddStation.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\BusLineList.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\BusLineList.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\BusList.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\BusList.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\Drivers.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\Drivers.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\StationList.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\StationList.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewBus.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewBus.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewDriver.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewDriver.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewStation.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewStation.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddBord.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddBord.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddFloor.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddFloor.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddSupervisor.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\AddSupervisor.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\BoardList.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\BoardList.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\FloorList.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\FloorList.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\SupervisorList.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\SupervisorList.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\SittingNumberList.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\SittingNumberList.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\StudentBusList.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\StudentBusList.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewBord.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewBord.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewFloor.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewFloor.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewSupervisor.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewSupervisor.aspx.ar-EG.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewBusLine.aspx.resx" />
+    <Content Include="StudentAfair\App_LocalResources\ViewBusLine.aspx.ar-EG.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
